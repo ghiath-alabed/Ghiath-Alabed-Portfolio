@@ -16,14 +16,15 @@ import freelancyoImg1 from './assets/1.png';
 import freelancyoImg2 from './assets/2.png';
 import freelancyoImg3 from './assets/3.png';
 import freelancyoImg4 from './assets/4.png';
+import Sidequest1 from './assets/Sidequest1.png';
 
 export const ALL_PROJECTS = [
   {
-    slug: 'freelancyo',
-    title: 'Freelancyo',
-    titleHighlight: 'lancyo',
+    slug: 'freeLancyo',
+    title: 'FreeLancyo',
+    titleHighlight: 'Lancyo',
     category: 'Website',
-    tags: ['React', 'JavaScript', 'CSS', 'Vite'],
+    tags: ['React', 'JavaScript', 'Tailwind CSS', 'Vite'],
     desc: 'A dedicated workspace designed to help freelancers manage their business without the clutter — track projects and generate professional contracts effortlessly.',
     longDesc: `Freelancyo is a dedicated workspace designed to help freelancers manage their business without the clutter. While most tools are overwhelmingly complex, Freelancyo focuses on a smooth, unified workflow. It allows freelancers to easily track projects and generate professional contracts — either from ready-made templates or by building custom ones from scratch.\n\nCurrently in active development, with many more features on the roadmap to make independent work effortless.`,
     features: [
@@ -33,13 +34,14 @@ export const ALL_PROJECTS = [
     images: [freelancyoImg1, freelancyoImg2, freelancyoImg3, freelancyoImg4],
     youtube: null,
     github: null,
-    liveUrl: null,
+    liveUrl: 'https://freelancyo.com/',
     status: 'In Development',
   },
   {
     slug: 'lazy-ball',
     title: 'Lazy Ball',
     category: 'Game Development',
+    videoDelay: 8,
     tags: ['Unity', 'C#'],
     desc: "A reflex-speed game with 3 modes: endless, normal, and puzzle. Draw the ball's path to reach the goal.",
     longDesc: `Lazy Ball is a creative reflex game where players draw the ball's path instead of controlling it directly. Guide the ball through obstacles by sketching lines and curves, reaching the goal before time runs out or the ball falls.\n\nThree game modes keep the experience fresh: Endless Mode ramps up difficulty infinitely; Normal Mode offers handcrafted levels with clear objectives; Puzzle Mode introduces logic-based challenges where the path must be precisely planned before the ball moves.`,
@@ -54,7 +56,7 @@ export const ALL_PROJECTS = [
     images: [lazyImg, lazyImg2, lazyImg3],
     youtube: null,
     github: null,
-    liveUrl: null,
+    liveUrl: 'https://lazyball.online/',
     status: 'Completed',
   },
   {
@@ -78,8 +80,8 @@ export const ALL_PROJECTS = [
     status: 'Completed',
   },
   {
-    slug: 'task-manager-app',
-    title: 'Task Manager App',
+    slug: 'Sidequest',
+    title: 'Sidequest',
     category: 'Mobile App',
     tags: ['React Native', 'JavaScript', 'Expo'],
     desc: 'A cross-platform mobile task manager with categories, priorities, due dates, and offline support.',
@@ -92,7 +94,7 @@ export const ALL_PROJECTS = [
       'Filter and search across all tasks',
       'Dark-mode first UI',
     ],
-    images: [stickImg, stickImg2, stickImg3],
+    images: [Sidequest1],
     youtube: null,
     github: null,
     liveUrl: null,

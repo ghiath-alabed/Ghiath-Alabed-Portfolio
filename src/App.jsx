@@ -1,24 +1,82 @@
 import React, { useEffect, useState } from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import HeroCubes from './HeroCubes';
 import StarField from './StarField';
 import ProjectPage from './ProjectPage';
 import { ALL_PROJECTS } from './projectsData';
 
-function Carousel({ images, alt }) {
+function Carousel({ images, slides, alt }) {
+  const providedSlides = slides || images;
+  const localSlides = Array.isArray(providedSlides) && providedSlides.length && typeof providedSlides[0] === 'object'
+    ? providedSlides
+    : (providedSlides || []).map(s => ({ type: 'image', src: s }));
+
   const [index, setIndex] = useState(0);
+  const videoRefs = React.useRef({});
+
   useEffect(() => {
-    const t = setInterval(() => setIndex(p => (p + 1) % images.length), 3000);
-    return () => clearInterval(t);
-  }, [images.length]);
+    if (!localSlides.length) return;
+    let timer = null;
+    const advance = () => setIndex(p => (p + 1) % localSlides.length);
+
+    const schedule = () => {
+      const s = localSlides[index];
+      const explicit = s && s.delay;
+      if (s && s.type === 'video') {
+        const vid = videoRefs.current[index];
+        const startTimer = (d) => {
+          if (explicit && !isNaN(explicit)) {
+            timer = setTimeout(advance, Math.max(3000, Math.min(explicit * 1000, 60000)));
+            return;
+          }
+          const delay = (!d || isNaN(d)) ? 3000 : Math.max(3000, Math.min(d * 1000, 15000));
+          timer = setTimeout(advance, delay);
+        };
+        if (explicit && !isNaN(explicit)) {
+          startTimer();
+        } else if (vid) {
+          if (vid.readyState >= 1 && vid.duration && !isNaN(vid.duration)) startTimer(vid.duration);
+          else {
+            const onLoaded = () => { startTimer(vid.duration); vid.removeEventListener('loadedmetadata', onLoaded); };
+            vid.addEventListener('loadedmetadata', onLoaded);
+            timer = setTimeout(advance, 3000);
+          }
+        } else timer = setTimeout(advance, 3000);
+      } else {
+        timer = setTimeout(advance, 3000);
+      }
+    };
+
+    schedule();
+    return () => clearTimeout(timer);
+  }, [localSlides.length, index]);
+
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-      {images.map((img, i) => (
-        <img key={i} src={img} alt={`${alt} ${i + 1}`} style={{
-          position: 'absolute', inset: 0, width: '100%', height: '100%',
-          objectFit: 'cover', opacity: index === i ? 1 : 0,
-          transition: 'opacity 0.6s ease-in-out'
-        }} />
+      {localSlides.map((s, i) => (
+        s.type === 'video' ? (
+          <video
+            key={i}
+            ref={el => (videoRefs.current[i] = el)}
+            src={s.src}
+            alt={`${alt} ${i + 1}`}
+            style={{
+              position: 'absolute', inset: 0, width: '100%', height: '100%',
+              objectFit: 'cover', opacity: index === i ? 1 : 0,
+              transition: 'opacity 0.6s ease-in-out'
+            }}
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        ) : (
+          <img key={i} src={s.src} alt={`${alt} ${i + 1}`} style={{
+            position: 'absolute', inset: 0, width: '100%', height: '100%',
+            objectFit: 'cover', opacity: index === i ? 1 : 0,
+            transition: 'opacity 0.6s ease-in-out'
+          }} />
+        )
       ))}
     </div>
   );
@@ -28,6 +86,24 @@ const FILTERS = ['All Projects', 'Game Development', 'Website', 'Mobile App'];
 
 function HomePage() {
   const [activeFilter, setActiveFilter] = useState('All Projects');
+  const location = useLocation();
+
+  // Scroll to section when navigated here from another page (e.g. ProjectPage nav links)
+  useEffect(() => {
+    const target = location.state?.scrollTo;
+    if (!target) return;
+    let attempts = 0;
+    const tryScroll = () => {
+      const el = document.getElementById(target);
+      if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
+      if (attempts++ < 12) setTimeout(tryScroll, 80);
+    };
+    setTimeout(tryScroll, 50);
+  }, [location.state]);
+
+  const scrollTo = (id) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -45,15 +121,15 @@ function HomePage() {
     <>
       {/* Navigation */}
       <nav>
-        <a href="#home" className="logo">&lt;Ghiath<span>Dev</span>/&gt;</a>
+        <a href="#/" className="logo" onClick={(e) => { e.preventDefault(); scrollTo('home'); }}>&lt;Ghiath<span>Dev</span>/&gt;</a>
         <div className="nav-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('home'); }}>Home</a>
+          <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('about'); }}>About</a>
+          <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('projects'); }}>Projects</a>
+          <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('contact'); }}>Contact</a>
         </div>
         <div className="nav-controls">
-          <a href="#contact" className="btn btn-gold" style={{ fontSize: '0.8rem', padding: '0.5rem 1.2rem' }}>Let's Talk</a>
+          <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('contact'); }} className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.5rem 1.2rem' }}>Let's Talk</a>
         </div>
       </nav>
 
@@ -67,8 +143,8 @@ function HomePage() {
             high-performance interactive experiences using Unity and modern software architecture.
           </p>
           <div style={{ marginTop: '2rem' }}>
-            <a href="#projects" className="btn btn-primary">View Projects</a>
-            <a href="#contact" className="btn btn-gold" style={{ marginLeft: '1rem' }}>Resume</a>
+            <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('projects'); }} className="btn btn-primary">View Projects</a>
+            <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('about'); }} className="btn btn-primary" style={{ marginLeft: '1rem' }}>About Me</a>
           </div>
           <div className="social-icons">
             <a href="https://github.com/ghiath-alabed" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i className="fab fa-github"></i></a>
@@ -178,10 +254,13 @@ function HomePage() {
           {filtered.map((proj) => (
             <div key={proj.title} className="project-card">
               <div className="card-img">
-                <Carousel images={proj.images} alt={proj.title} />
+                <Carousel
+                  slides={proj.video ? [{ type: 'video', src: proj.video, delay: proj.videoDelay }, ...proj.images.map(s => ({ type: 'image', src: s }))] : proj.images}
+                  alt={proj.title}
+                />
                 <span className="card-category-badge">{proj.category}</span>
               </div>
-              <div className="card-content">
+                <div className="card-content">
                 <div className="card-top-row">
                   <h3>
                     {proj.titleHighlight
@@ -198,15 +277,14 @@ function HomePage() {
                         })()
                       : proj.title}
                   </h3>
-                  <Link to={`/project/${proj.slug}`} className="card-ext-link" aria-label="Open project">
+                  <Link to={`/project/${proj.slug}`} className="card-ext-link" aria-label="Open project" onClick={() => window.scrollTo(0,0)}>
                     <i className="fas fa-external-link-alt"></i>
                   </Link>
                 </div>
-                <p>{proj.desc}</p>
                 <div className="card-tech">
                   {proj.tags.map(t => <span key={t} className="tech-tag">{t}</span>)}
                 </div>
-                <Link to={`/project/${proj.slug}`} className="card-details-btn">Details &rarr;</Link>
+                <Link to={`/project/${proj.slug}`} className="card-details-btn" onClick={() => window.scrollTo(0,0)}>Details &rarr;</Link>
               </div>
             </div>
           ))}
@@ -223,7 +301,7 @@ function HomePage() {
           <a href="mailto:alabedghiath8@gmail.com" className="btn btn-primary contact-float-btn">
             Say Hello <i className="fas fa-paper-plane" style={{ marginLeft: '8px' }}></i>
           </a>
-          <a href="https://www.linkedin.com/in/ghiath-al-abed-034a4239a/" className="btn btn-gold contact-float-btn contact-float-btn--delay" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/ghiath-al-abed-034a4239a/" className="btn btn-primary contact-float-btn contact-float-btn--delay" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin" style={{ marginRight: '8px' }}></i>LinkedIn
           </a>
         </div>
