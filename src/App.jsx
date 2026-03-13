@@ -1,18 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
 import HeroCubes from './HeroCubes';
-import swarmImg from './assets/swarm.png';
-import swarmImg2 from './assets/swarm2.png';
-import swarmImg3 from './assets/swarm3.png';
-import swarmImg4 from './assets/swarm4.png';
-import swarmImg5 from './assets/swarm5.png';
-import stickImg from './assets/stick.png';
-import stickImg2 from './assets/stick2.png';
-import stickImg3 from './assets/stick3.png';
-import stickImg4 from './assets/stick4.png';
-import stickImg5 from './assets/stick5.png';
-import lazyImg from './assets/lazy.png';
-import lazyImg2 from './assets/lazy2.png';
-import lazyImg3 from './assets/lazy3.png';
+import StarField from './StarField';
+import ProjectPage from './ProjectPage';
+import { ALL_PROJECTS } from './projectsData';
 
 function Carousel({ images, alt }) {
   const [index, setIndex] = useState(0);
@@ -33,36 +24,9 @@ function Carousel({ images, alt }) {
   );
 }
 
-const ALL_PROJECTS = [
-  {
-    title: 'Swarm',
-    category: 'Game Development',
-    tags: ['C#', 'Unity'],
-    desc: 'A Roguelike game testing patience and skills. Players lose all progress on death and face boss fights.',
-    images: [swarmImg, swarmImg2, swarmImg3, swarmImg4, swarmImg5],
-    link: '#',
-  },
-  {
-    title: 'Stick Torture',
-    category: 'Game Development',
-    tags: ['Unity', 'C#', 'Aseprite'],
-    desc: 'A 2D platformer with trap mechanisms, escape levels, side-scroller combat, and boss fights.',
-    images: [stickImg, stickImg2, stickImg3, stickImg4, stickImg5],
-    link: '#',
-  },
-  {
-    title: 'Lazy Ball',
-    category: 'Game Development',
-    tags: ['Unity', 'C#'],
-    desc: 'A reflex-speed game with 3 modes: endless, normal, and puzzle. Draw the ball\'s path to reach the goal.',
-    images: [lazyImg, lazyImg2, lazyImg3],
-    link: '#',
-  },
-];
+const FILTERS = ['All Projects', 'Game Development', 'Website', 'Mobile App'];
 
-const FILTERS = ['All Projects', 'Game Development'];
-
-function App() {
+function HomePage() {
   const [activeFilter, setActiveFilter] = useState('All Projects');
 
   useEffect(() => {
@@ -79,9 +43,6 @@ function App() {
 
   return (
     <>
-      {/* Space background — fixed, covers entire site */}
-      <div className="space-bg" aria-hidden="true" />
-
       {/* Navigation */}
       <nav>
         <a href="#home" className="logo">&lt;Ghiath<span>Dev</span>/&gt;</a>
@@ -99,8 +60,8 @@ function App() {
       {/* ── HERO ── */}
       <section className="hero" id="home">
         <div className="hero-left fade-in">
-          <div className="hero-subtitle">&lt; Creative Developer & Computer Engineer /&gt;</div>
-           <h1>GHIATH ALABED</h1>
+          <div className="hero-subtitle">&lt; Creative Developer & Computer Engineer &gt;</div>
+          <h1>GHIATH ALABED</h1>
           <p style={{ color: 'var(--text-muted)', maxWidth: '520px', margin: '1.5rem 0' }}>
             Bridging the gap between software engineering and game design. Focused on building
             high-performance interactive experiences using Unity and modern software architecture.
@@ -136,7 +97,7 @@ function App() {
               </div>
               <div className="avatar-online" />
             </div>
-            <h3 className="about-name">Ghiath Al-Abed</h3>
+            <h3 className="about-name">Ghiath Alabed</h3>
             <p className="about-role">COMPUTER ENGINEER</p>
             <p className="about-bio">
               Passionate game developer with expertise in Unity and C#. Creating immersive gaming
@@ -189,7 +150,6 @@ function App() {
                 <li>Crafting backend systems and APIs to power scalable solutions.</li>
               </ul>
             </div>
-
           </div>
         </div>
       </section>
@@ -223,14 +183,30 @@ function App() {
               </div>
               <div className="card-content">
                 <div className="card-top-row">
-                  <h3>{proj.title}</h3>
-                  <a href={proj.link} className="card-ext-link" aria-label="Open project"><i className="fas fa-external-link-alt"></i></a>
+                  <h3>
+                    {proj.titleHighlight
+                      ? (() => {
+                          const idx = proj.title.indexOf(proj.titleHighlight);
+                          if (idx === -1) return proj.title;
+                          return (
+                            <>
+                              {proj.title.slice(0, idx)}
+                              <span style={{ color: '#38bdf8' }}>{proj.titleHighlight}</span>
+                              {proj.title.slice(idx + proj.titleHighlight.length)}
+                            </>
+                          );
+                        })()
+                      : proj.title}
+                  </h3>
+                  <Link to={`/project/${proj.slug}`} className="card-ext-link" aria-label="Open project">
+                    <i className="fas fa-external-link-alt"></i>
+                  </Link>
                 </div>
                 <p>{proj.desc}</p>
                 <div className="card-tech">
                   {proj.tags.map(t => <span key={t} className="tech-tag">{t}</span>)}
                 </div>
-                <a href={proj.link} className="card-details-btn">Details &rarr;</a>
+                <Link to={`/project/${proj.slug}`} className="card-details-btn">Details &rarr;</Link>
               </div>
             </div>
           ))}
@@ -238,24 +214,36 @@ function App() {
       </section>
 
       {/* ── CONTACT ── */}
-      <section className="section" id="contact">
-        <div className="contact-container fade-in">
-          <h2>Ready to Collaborate?</h2>
-          <p>I am currently open for freelance projects and full-time opportunities.</p>
-          <div style={{ marginTop: '1rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <a href="mailto:alabedghiath8@gmail.com" className="btn btn-primary" style={{ marginBottom: '0.75rem' }}>
-              Say Hello <i className="fas fa-paper-plane" style={{ marginLeft: '8px' }}></i>
-            </a>
-            <a href="https://www.linkedin.com/in/ghiath-al-abed-034a4239a/" className="btn btn-gold" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin" style={{ marginRight: '8px' }}></i>LinkedIn
-            </a>
-          </div>
+      <section className="contact-section fade-in" id="contact">
+        <div className="contact-left">
+          <h2 className="contact-title">Ready to<br />Collaborate?</h2>
+          <p className="contact-sub">I am currently open for freelance projects and full-time opportunities.</p>
+        </div>
+        <div className="contact-right">
+          <a href="mailto:alabedghiath8@gmail.com" className="btn btn-primary contact-float-btn">
+            Say Hello <i className="fas fa-paper-plane" style={{ marginLeft: '8px' }}></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ghiath-al-abed-034a4239a/" className="btn btn-gold contact-float-btn contact-float-btn--delay" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-linkedin" style={{ marginRight: '8px' }}></i>LinkedIn
+          </a>
         </div>
       </section>
 
       <footer>
         <p>&copy; 2026 Ghiath Developer. Built with <span style={{ color: 'var(--burgundy)' }}>&#10084;</span> and Code.</p>
       </footer>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <>
+      <StarField />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/project/:slug" element={<ProjectPage />} />
+      </Routes>
     </>
   );
 }
