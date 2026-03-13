@@ -215,7 +215,7 @@ function ProjectPage() {
             </h1>
             
           </div>
-          <Link to="/" state={{ scrollTo: 'projects' }} className="btn btn-gold" style={{ alignSelf: 'flex-start', whiteSpace: 'nowrap' }}>
+          <Link to="/" state={{ scrollTo: 'projects' }} className="btn btn-primary" style={{ alignSelf: 'flex-start', whiteSpace: 'nowrap' }}>
             ← All Projects
           </Link>
         </div>

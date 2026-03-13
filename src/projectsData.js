@@ -35,7 +35,7 @@ export const ALL_PROJECTS = [
     youtube: null,
     github: null,
     liveUrl: 'https://freelancyo.com/',
-    status: 'In Development',
+    status: 'Completed',
   },
   {
     slug: 'lazy-ball',
@@ -77,7 +77,7 @@ export const ALL_PROJECTS = [
     youtube: null,
     github: null,
     liveUrl: null,
-    status: 'Completed',
+    status: 'In Development',
   },
   {
     slug: 'Sidequest',

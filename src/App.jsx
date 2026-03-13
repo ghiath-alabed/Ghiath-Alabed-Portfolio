@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import HeroCubes from './HeroCubes';
 import StarField from './StarField';
 import ProjectPage from './ProjectPage';
 import { ALL_PROJECTS } from './projectsData';
+import ppAvatar from './assets/PP.jpeg';
 
 function Carousel({ images, slides, alt }) {
   const providedSlides = slides || images;
@@ -87,6 +88,8 @@ const FILTERS = ['All Projects', 'Game Development', 'Website', 'Mobile App'];
 function HomePage() {
   const [activeFilter, setActiveFilter] = useState('All Projects');
   const location = useLocation();
+  const filtersRef = useRef(null);
+  const [indicator, setIndicator] = useState({ left: 0, width: 0, visible: false });
 
   // Scroll to section when navigated here from another page (e.g. ProjectPage nav links)
   useEffect(() => {
@@ -112,6 +115,37 @@ function HomePage() {
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
     return () => document.querySelectorAll('.fade-in').forEach(el => observer.unobserve(el));
   }, []);
+
+  // compute indicator position when activeFilter changes or on resize
+  useEffect(() => {
+    const container = filtersRef.current;
+    if (!container) return;
+    const btns = Array.from(container.querySelectorAll('.filter-btn'));
+    const idx = FILTERS.indexOf(activeFilter);
+    const btn = btns[idx];
+    if (!btn) {
+      setIndicator(i => ({ ...i, visible: false }));
+      return;
+    }
+
+    // small horizontal padding inside the rounded track
+    const padding = 6;
+    const left = btn.offsetLeft + padding;
+    const width = Math.max(24, btn.offsetWidth - padding * 2);
+
+    // set with a tiny delay to allow rendering/layout changes
+    requestAnimationFrame(() => setIndicator({ left, width, visible: true }));
+
+    const onResize = () => {
+      const b2 = container.querySelectorAll('.filter-btn')[idx];
+      if (!b2) return;
+      const l2 = b2.offsetLeft + padding;
+      const w2 = Math.max(24, b2.offsetWidth - padding * 2);
+      setIndicator({ left: l2, width: w2, visible: true });
+    };
+    window.addEventListener('resize', onResize);
+    return () => window.removeEventListener('resize', onResize);
+  }, [activeFilter]);
 
   const filtered = activeFilter === 'All Projects'
     ? ALL_PROJECTS
@@ -169,7 +203,7 @@ function HomePage() {
           <div className="about-card">
             <div className="about-avatar">
               <div className="avatar-ring">
-                <div className="avatar-placeholder"><i className="fas fa-user"></i></div>
+                <img src={ppAvatar} alt="Ghiath Alabed" className="avatar-img" />
               </div>
               <div className="avatar-online" />
             </div>
@@ -222,6 +256,9 @@ function HomePage() {
               <ul className="about-list">
                 <li>Developing high-performance web applications using <strong>React</strong> and <strong>JavaScript</strong>.</li>
                 <li>Creating immersive interactive experiences with <strong>Unity</strong> and <strong>C#</strong>.</li>
+                <li>Designing and implementing cross-platform mobile applications with <strong>React Native</strong> and <strong>Expo</strong>.</li>
+                <li>Designing engaging level layouts and programming complex game mechanics.</li>
+                <li>Crafting intuitive user interfaces and integrating immersive sound effects.</li>
                 <li>Building pixel-art assets and game animations with <strong>Aseprite</strong>.</li>
                 <li>Crafting backend systems and APIs to power scalable solutions.</li>
               </ul>
@@ -239,7 +276,12 @@ function HomePage() {
           <p style={{ color: 'var(--text-muted)', maxWidth: '560px', margin: '0 auto 2rem' }}>
             A selection of my recent work, ranging from web applications to game development.
           </p>
-          <div className="project-filters">
+          <div className="project-filters" ref={filtersRef}>
+            <div
+              className="filter-indicator"
+              style={{ left: indicator.left + 'px', width: indicator.width + 'px', opacity: indicator.visible ? 1 : 0 }}
+              aria-hidden
+            />
             {FILTERS.map(f => (
               <button
                 key={f}
