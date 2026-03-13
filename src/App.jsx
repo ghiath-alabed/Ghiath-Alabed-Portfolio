@@ -89,7 +89,6 @@ function HomePage() {
   const [activeFilter, setActiveFilter] = useState('All Projects');
   const location = useLocation();
   const filtersRef = useRef(null);
-  const [indicator, setIndicator] = useState({ left: 0, width: 0, visible: false });
 
   // Scroll to section when navigated here from another page (e.g. ProjectPage nav links)
   useEffect(() => {
@@ -115,37 +114,6 @@ function HomePage() {
     document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
     return () => document.querySelectorAll('.fade-in').forEach(el => observer.unobserve(el));
   }, []);
-
-  // compute indicator position when activeFilter changes or on resize
-  useEffect(() => {
-    const container = filtersRef.current;
-    if (!container) return;
-    const btns = Array.from(container.querySelectorAll('.filter-btn'));
-    const idx = FILTERS.indexOf(activeFilter);
-    const btn = btns[idx];
-    if (!btn) {
-      setIndicator(i => ({ ...i, visible: false }));
-      return;
-    }
-
-    // small horizontal padding inside the rounded track
-    const padding = 6;
-    const left = btn.offsetLeft + padding;
-    const width = Math.max(24, btn.offsetWidth - padding * 2);
-
-    // set with a tiny delay to allow rendering/layout changes
-    requestAnimationFrame(() => setIndicator({ left, width, visible: true }));
-
-    const onResize = () => {
-      const b2 = container.querySelectorAll('.filter-btn')[idx];
-      if (!b2) return;
-      const l2 = b2.offsetLeft + padding;
-      const w2 = Math.max(24, b2.offsetWidth - padding * 2);
-      setIndicator({ left: l2, width: w2, visible: true });
-    };
-    window.addEventListener('resize', onResize);
-    return () => window.removeEventListener('resize', onResize);
-  }, [activeFilter]);
 
   const filtered = activeFilter === 'All Projects'
     ? ALL_PROJECTS
@@ -277,11 +245,6 @@ function HomePage() {
             A selection of my recent work, ranging from web applications to game development.
           </p>
           <div className="project-filters" ref={filtersRef}>
-            <div
-              className="filter-indicator"
-              style={{ left: indicator.left + 'px', width: indicator.width + 'px', opacity: indicator.visible ? 1 : 0 }}
-              aria-hidden
-            />
             {FILTERS.map(f => (
               <button
                 key={f}
