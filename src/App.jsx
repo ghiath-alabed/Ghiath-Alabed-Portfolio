@@ -270,7 +270,7 @@ function HomePage() {
       {/* ── FEATURED PROJECTS ── */}
       <section style={{ padding: '6rem 5%' }} id="projects">
         <div className="fade-in" style={{ textAlign: 'center', marginBottom: '3rem' }}>
-          <h2 style={{ fontSize: '2.8rem', fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, marginBottom: '1rem' }}>
+          <h2 className="featured-title" style={{ marginBottom: '1rem' }}>
             Featured Projects
           </h2>
           <p style={{ color: 'var(--text-muted)', maxWidth: '560px', margin: '0 auto 2rem' }}>
