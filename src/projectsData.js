@@ -17,8 +17,30 @@ import freelancyoImg2 from './assets/2.png';
 import freelancyoImg3 from './assets/3.png';
 import freelancyoImg4 from './assets/4.png';
 import Sidequest1 from './assets/Sidequest1.png';
+import inv1 from './assets/inv1.png';
+import inv2 from './assets/inv2.png';
+import inv3 from './assets/inv3.png';
+import inv4 from './assets/inv4.png';
 
 export const ALL_PROJECTS = [
+  {
+    slug: 'invitation-app',
+    title: 'Invitation App',
+    category: 'Website',
+    tags: ['React', 'Tailwind CSS', 'Vite'],
+    desc: 'An invitation creation platform where you can choose your card design based on the event type, fill in the details, and download the output as a PDF or image to share.',
+    longDesc: 'A comprehensive invitation studio that streamlines the process of creating event cards. Users select an event category, choose a professionally designed theme, input their specific details, and instantly generate a high-quality invitation ready for download as a PDF or image.',
+    features: [
+      'Event type and card design selection',
+      'Customizable information entry',
+      'Download and share in PDF or photo format'
+    ],
+    images: [inv1, inv2, inv3, inv4],
+    youtube: null,
+    github: null,
+    liveUrl: 'https://invitations-app-bay.vercel.app/',
+    status: 'Completed',
+  },
   {
     slug: 'freeLancyo',
     title: 'FreeLancyo',

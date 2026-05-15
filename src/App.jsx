@@ -4,7 +4,7 @@ import HeroCubes from './HeroCubes';
 import StarField from './StarField';
 import ProjectPage from './ProjectPage';
 import { ALL_PROJECTS } from './projectsData';
-import ppAvatar from './assets/PP.jpeg';
+import ppAvatar from './assets/avatar.png';
 
 function Carousel({ images, slides, alt }) {
   const providedSlides = slides || images;
@@ -184,16 +184,16 @@ function HomePage() {
             <p className="about-skills-label">TOP SKILLS</p>
             <div className="about-skill-tags">
               {[
-                { icon: 'fas fa-gamepad',  label: 'Unity',      color: '#38bdf8' },
-                { icon: 'fas fa-code',     label: 'C#',         color: '#38bdf8' },
-                { icon: 'fab fa-python',   label: 'Python',     color: '#38bdf8' },
-                { icon: 'fab fa-react',    label: 'React',      color: '#38bdf8' },
-                { icon: 'fas fa-terminal', label: 'C++',        color: '#38bdf8' },
-                { icon: 'fab fa-js',       label: 'JavaScript', color: '#38bdf8' },
-                { icon: 'fas fa-palette',  label: 'Aseprite',   color: '#38bdf8' },
-                { icon: 'fab fa-node-js',  label: 'Node.js',    color: '#38bdf8' },
-                { icon: 'fab fa-html5',    label: 'HTML',       color: '#38bdf8' },
-                { icon: 'fab fa-css3-alt', label: 'CSS',        color: '#38bdf8' },
+                { icon: 'fas fa-gamepad', label: 'Unity', color: '#38bdf8' },
+                { icon: 'fas fa-code', label: 'C#', color: '#38bdf8' },
+                { icon: 'fab fa-python', label: 'Python', color: '#38bdf8' },
+                { icon: 'fab fa-react', label: 'React', color: '#38bdf8' },
+                { icon: 'fas fa-terminal', label: 'C++', color: '#38bdf8' },
+                { icon: 'fab fa-js', label: 'JavaScript', color: '#38bdf8' },
+                { icon: 'fas fa-palette', label: 'Aseprite', color: '#38bdf8' },
+                { icon: 'fab fa-node-js', label: 'Node.js', color: '#38bdf8' },
+                { icon: 'fab fa-html5', label: 'HTML', color: '#38bdf8' },
+                { icon: 'fab fa-css3-alt', label: 'CSS', color: '#38bdf8' },
               ].map(({ icon, label, color }) => (
                 <span key={label} className="about-skill-tag">
                   <i className={icon} style={{ color, fontSize: '0.75rem' }}></i>
@@ -265,31 +265,31 @@ function HomePage() {
                 />
                 <span className="card-category-badge">{proj.category}</span>
               </div>
-                <div className="card-content">
+              <div className="card-content">
                 <div className="card-top-row">
                   <h3>
                     {proj.titleHighlight
                       ? (() => {
-                          const idx = proj.title.indexOf(proj.titleHighlight);
-                          if (idx === -1) return proj.title;
-                          return (
-                            <>
-                              {proj.title.slice(0, idx)}
-                              <span style={{ color: '#38bdf8' }}>{proj.titleHighlight}</span>
-                              {proj.title.slice(idx + proj.titleHighlight.length)}
-                            </>
-                          );
-                        })()
+                        const idx = proj.title.indexOf(proj.titleHighlight);
+                        if (idx === -1) return proj.title;
+                        return (
+                          <>
+                            {proj.title.slice(0, idx)}
+                            <span style={{ color: '#38bdf8' }}>{proj.titleHighlight}</span>
+                            {proj.title.slice(idx + proj.titleHighlight.length)}
+                          </>
+                        );
+                      })()
                       : proj.title}
                   </h3>
-                  <Link to={`/project/${proj.slug}`} className="card-ext-link" aria-label="Open project" onClick={() => window.scrollTo(0,0)}>
+                  <Link to={`/project/${proj.slug}`} className="card-ext-link" aria-label="Open project" onClick={() => window.scrollTo(0, 0)}>
                     <i className="fas fa-external-link-alt"></i>
                   </Link>
                 </div>
                 <div className="card-tech">
                   {proj.tags.map(t => <span key={t} className="tech-tag">{t}</span>)}
                 </div>
-                <Link to={`/project/${proj.slug}`} className="card-details-btn" onClick={() => window.scrollTo(0,0)}>Details &rarr;</Link>
+                <Link to={`/project/${proj.slug}`} className="card-details-btn" onClick={() => window.scrollTo(0, 0)}>Details &rarr;</Link>
               </div>
             </div>
           ))}
