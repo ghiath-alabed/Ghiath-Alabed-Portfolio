@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react';
 import portrait from './assets/new landing foto.png';
 import mouse from './assets/mouse-3d.png';
 import keyboard from './assets/keyboard-3d.png';
-import headphones from './assets/headphones-3d.png';
 import graphicsTablet from './assets/graphics-tablet-3d.png';
 import airpods from './assets/airpods-3d.png';
 import invitationCover from './assets/inv1.png';
@@ -56,14 +55,6 @@ const OBJECTS = [
     className: 'object-tablet-right',
     duration: '7.3s',
     delay: '-4.7s',
-  },
-  {
-    id: 'headphones',
-    src: headphones,
-    label: 'Floating headphones',
-    className: 'object-headphones',
-    duration: '6.1s',
-    delay: '-2.8s',
   },
 ];
 
@@ -258,6 +249,27 @@ function App() {
         <div className="portrait-wrap">
           <div className="portrait-halo" />
           <img className="portrait" src={portrait} alt="Ghiath Alabed" />
+        </div>
+
+        <div className="shoulder-links-layer">
+          <a
+            className="shoulder-social shoulder-social-linkedin"
+            href="https://www.linkedin.com/in/ghiath-al-abed-034a4239a/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span><i className="fa-brands fa-linkedin-in" /> LinkedIn</span>
+            <small>GHIATH ALABED</small>
+          </a>
+          <a
+            className="shoulder-social shoulder-social-instagram"
+            href="https://www.instagram.com/ghiath.codes/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>Instagram <i className="fa-brands fa-instagram" /></span>
+            <small>@GHIATH.CODES</small>
+          </a>
         </div>
 
         <div className="objects-layer" aria-label="Interactive floating objects">

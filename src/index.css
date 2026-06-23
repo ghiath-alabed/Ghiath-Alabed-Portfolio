@@ -213,6 +213,80 @@ a:focus-visible {
   filter: drop-shadow(0 24px 28px rgba(22, 27, 39, 0.13));
   user-select: none;
   pointer-events: none;
+  z-index: 1;
+}
+
+.shoulder-links-layer {
+  position: absolute;
+  left: 50%;
+  bottom: -2.8%;
+  z-index: 35;
+  width: min(57vw, 720px);
+  height: min(86vh, 860px);
+  translate: -50% 0;
+  pointer-events: none;
+}
+
+.shoulder-social {
+  position: absolute;
+  top: 58.5%;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  color: #3157d5;
+  font: 700 11px 'DM Mono', monospace;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  text-decoration: none;
+  text-shadow: 0 1px 10px rgba(125, 150, 239, 0.42);
+  transition: opacity 220ms ease, transform 220ms ease;
+  white-space: nowrap;
+  pointer-events: auto;
+}
+
+.shoulder-social span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.shoulder-social i {
+  color: #3157d5;
+  font-size: 12px;
+}
+
+.shoulder-social small {
+  color: #6882df;
+  font: 500 7px 'DM Mono', monospace;
+  letter-spacing: 0.13em;
+}
+
+.shoulder-social:hover {
+  opacity: 0.72;
+}
+
+.shoulder-social-linkedin {
+  left: 2%;
+  align-items: flex-start;
+  transform: rotate(-11deg);
+  transform-origin: left center;
+}
+
+.shoulder-social-linkedin:hover {
+  transform: rotate(-11deg) translateY(-3px);
+}
+
+.shoulder-social-instagram {
+  right: 2%;
+  align-items: flex-end;
+  text-align: right;
+  transform: rotate(11deg);
+  transform-origin: right center;
+}
+
+.shoulder-social-instagram:hover {
+  transform: rotate(11deg) translateY(-3px);
 }
 
 .objects-layer {
@@ -323,14 +397,6 @@ a:focus-visible {
   z-index: 12;
   width: clamp(270px, 29vw, 470px);
   rotate: 12deg;
-}
-
-.object-headphones {
-  top: 56%;
-  left: 70%;
-  z-index: 8;
-  width: clamp(150px, 15vw, 245px);
-  rotate: 8deg;
 }
 
 .hero-meta {
@@ -1152,7 +1218,11 @@ a:focus-visible {
 @media (max-width: 760px) {
   .topbar {
     grid-template-columns: 1fr 1fr;
-    padding: 20px;
+    padding: 17px 16px;
+  }
+
+  .contact-link {
+    font-size: 9px;
   }
 
   .main-nav {
@@ -1160,59 +1230,80 @@ a:focus-visible {
   }
 
   .portrait-wrap {
-    bottom: -1.5%;
-    width: min(96vw, 620px);
-    height: min(79vh, 720px);
+    bottom: -0.5%;
+    width: min(92vw, 560px);
+    height: min(72svh, 660px);
+  }
+
+  .shoulder-links-layer {
+    bottom: -0.5%;
+    width: min(92vw, 560px);
+    height: min(72svh, 660px);
   }
 
   .portrait-halo {
-    top: 40%;
-    width: 70vw;
+    top: 39%;
+    width: 62vw;
+  }
+
+  .shoulder-social {
+    top: 60.5%;
+    font-size: 7.5px;
+    letter-spacing: 0.05em;
+  }
+
+  .shoulder-social small {
+    font-size: 5.5px;
+  }
+
+  .shoulder-social i {
+    font-size: 9px;
+  }
+
+  .shoulder-social-linkedin {
+    left: 2%;
+  }
+
+  .shoulder-social-instagram {
+    right: 2%;
   }
 
   .eyebrow {
-    top: 15%;
+    top: 12.5%;
+    font-size: 8px;
   }
 
   .nameplate {
-    top: 41%;
-    font-size: 27vw;
+    top: 39%;
+    font-size: 24vw;
   }
 
   .object-keyboard-left {
-    top: 29%;
-    left: 5%;
-    width: 53vw;
+    top: 27%;
+    left: 22%;
+    width: 40vw;
   }
 
   .object-airpods-right {
-    top: 30%;
-    left: 93%;
-    width: 31vw;
+    top: 27%;
+    left: 82%;
+    width: 22vw;
   }
 
   .object-mouse-left {
-    top: 67%;
-    left: 3%;
-    width: 30vw;
+    top: 71%;
+    left: 18%;
+    width: 21vw;
   }
 
   .object-tablet-right {
     top: 72%;
-    left: 96%;
-    width: 51vw;
-  }
-
-  .object-headphones {
-    top: 53%;
-    left: 80%;
-    width: 27vw;
+    left: 81%;
+    width: 39vw;
   }
 
   .hero-meta {
-    left: 20px;
-    right: 20px;
-    bottom: 19px;
+    display: none;
   }
 
   .hero-meta > p:first-child {
@@ -1238,8 +1329,8 @@ a:focus-visible {
   .about-section,
   .projects-section,
   .contact-section {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .about-grid {
@@ -1249,7 +1340,7 @@ a:focus-visible {
 
   .about-headline h2,
   .projects-heading h2 {
-    font-size: 17vw;
+    font-size: 15vw;
   }
 
   .about-bottom {
@@ -1273,8 +1364,8 @@ a:focus-visible {
   }
 
   .projects-section {
-    padding-top: 95px;
-    padding-bottom: 110px;
+    padding-top: 82px;
+    padding-bottom: 92px;
     border-radius: 25px 25px 0 0;
   }
 
@@ -1329,7 +1420,22 @@ a:focus-visible {
 
   .projects-grid {
     grid-template-columns: 1fr;
-    gap: 58px;
+    gap: 44px;
+    width: 100%;
+  }
+
+  .project-card {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .project-visual {
+    width: 100%;
+    border-radius: 18px;
+  }
+
+  .project-card.reveal {
+    transform: translateY(48px);
   }
 
   .project-info {
@@ -1342,7 +1448,7 @@ a:focus-visible {
   }
 
   .contact-section {
-    padding-top: 95px;
+    padding-top: 82px;
   }
 
   .contact-orbit {
@@ -1356,7 +1462,12 @@ a:focus-visible {
   }
 
   .contact-content h2 {
-    font-size: 20vw;
+    font-size: 17vw;
+  }
+
+  .contact-button {
+    margin-top: 44px;
+    padding-left: 17px;
   }
 
   .site-footer {
@@ -1378,6 +1489,68 @@ a:focus-visible {
   .site-footer > a {
     grid-column: 2;
     grid-row: 2;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand {
+    font-size: 13px;
+  }
+
+  .portrait-wrap {
+    width: 96vw;
+    height: 69svh;
+  }
+
+  .shoulder-links-layer {
+    width: 96vw;
+    height: 69svh;
+  }
+
+  .shoulder-social {
+    top: 61.5%;
+  }
+
+  .shoulder-social small {
+    display: none;
+  }
+
+  .object-keyboard-left {
+    left: 20%;
+    width: 38vw;
+  }
+
+  .object-airpods-right {
+    left: 83%;
+    width: 20vw;
+  }
+
+  .object-mouse-left {
+    left: 16%;
+    width: 19vw;
+  }
+
+  .object-tablet-right {
+    left: 82%;
+    width: 36vw;
+  }
+
+  .about-accordion-trigger {
+    padding: 16px;
+  }
+
+  .about-accordion-title {
+    font-size: 18px;
+  }
+
+  .about-accordion-inner > p,
+  .about-accordion-inner > .about-work-list {
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .project-info h3 {
+    font-size: 27px;
   }
 }
 
