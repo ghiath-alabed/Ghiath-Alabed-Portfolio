@@ -1,333 +1,468 @@
-import React, { useEffect, useState, useRef } from 'react';
-import { Routes, Route, Link, useLocation } from 'react-router-dom';
-import HeroCubes from './HeroCubes';
-import StarField from './StarField';
-import ProjectPage from './ProjectPage';
-import { ALL_PROJECTS } from './projectsData';
-import ppAvatar from './assets/avatar.png';
+import { useEffect, useRef, useState } from 'react';
+import portrait from './assets/new landing foto.png';
+import mouse from './assets/mouse-3d.png';
+import keyboard from './assets/keyboard-3d.png';
+import headphones from './assets/headphones-3d.png';
+import graphicsTablet from './assets/graphics-tablet-3d.png';
+import airpods from './assets/airpods-3d.png';
+import invitationCover from './assets/inv1.png';
+import invitation2 from './assets/inv2.png';
+import invitation3 from './assets/inv3.png';
+import invitation4 from './assets/inv4.png';
+import freelancyoCover from './assets/1.png';
+import freelancyo2 from './assets/2.png';
+import freelancyo3 from './assets/3.png';
+import freelancyo4 from './assets/4.png';
+import lazyBallCover from './assets/lazy.png';
+import lazyBall2 from './assets/lazy2.png';
+import lazyBall3 from './assets/lazy3.png';
+import stickTortureCover from './assets/stick.png';
+import stickTorture2 from './assets/stick2.png';
+import stickTorture3 from './assets/stick3.png';
+import sidequestCover from './assets/Sidequest1.png';
+import swarmCover from './assets/swarm.png';
+import swarm2 from './assets/swarm2.png';
+import swarm3 from './assets/swarm3.png';
 
-function Carousel({ images, slides, alt }) {
-  const providedSlides = slides || images;
-  const localSlides = Array.isArray(providedSlides) && providedSlides.length && typeof providedSlides[0] === 'object'
-    ? providedSlides
-    : (providedSlides || []).map(s => ({ type: 'image', src: s }));
+const OBJECTS = [
+  {
+    id: 'keyboard-left',
+    src: keyboard,
+    label: 'Floating keyboard',
+    className: 'object-keyboard object-keyboard-left',
+    duration: '6.8s',
+    delay: '-1.1s',
+  },
+  {
+    id: 'airpods-right',
+    src: airpods,
+    label: 'Floating wireless earbuds',
+    className: 'object-airpods-right',
+    duration: '5.9s',
+    delay: '-3.4s',
+  },
+  {
+    id: 'mouse-left',
+    src: mouse,
+    label: 'Floating mouse',
+    className: 'object-mouse object-mouse-left',
+    duration: '6.4s',
+    delay: '-2.2s',
+  },
+  {
+    id: 'graphics-tablet-right',
+    src: graphicsTablet,
+    label: 'Floating graphics tablet',
+    className: 'object-tablet-right',
+    duration: '7.3s',
+    delay: '-4.7s',
+  },
+  {
+    id: 'headphones',
+    src: headphones,
+    label: 'Floating headphones',
+    className: 'object-headphones',
+    duration: '6.1s',
+    delay: '-2.8s',
+  },
+];
 
-  const [index, setIndex] = useState(0);
-  const videoRefs = React.useRef({});
+const FEATURED_PROJECTS = [
+  {
+    slug: 'invitation-app',
+    title: 'Invitation App',
+    category: 'Website',
+    tags: ['React', 'Tailwind CSS', 'Vite'],
+    images: [invitationCover, invitation2, invitation3, invitation4],
+    liveUrl: 'https://invitations-app-bay.vercel.app/',
+  },
+  {
+    slug: 'freelancyo',
+    title: 'FreeLancyo',
+    category: 'Website',
+    tags: ['React', 'JavaScript', 'Vite'],
+    images: [freelancyoCover, freelancyo2, freelancyo3, freelancyo4],
+    liveUrl: 'https://freelancyo.com/',
+  },
+  {
+    slug: 'lazy-ball',
+    title: 'Lazy Ball',
+    category: 'Game Development',
+    tags: ['Unity', 'C#'],
+    images: [lazyBallCover, lazyBall2, lazyBall3],
+    liveUrl: 'https://lazyball.online/',
+  },
+  {
+    slug: 'stick-torture',
+    title: 'Stick Torture',
+    category: 'Game Development',
+    tags: ['Unity', 'C#', 'Aseprite'],
+    images: [stickTortureCover, stickTorture2, stickTorture3],
+  },
+  {
+    slug: 'sidequest',
+    title: 'Sidequest',
+    category: 'Mobile App',
+    tags: ['React Native', 'Expo'],
+    images: [sidequestCover],
+  },
+  {
+    slug: 'swarm',
+    title: 'Swarm',
+    category: 'Game Development',
+    tags: ['Unity', 'C#'],
+    images: [swarmCover, swarm2, swarm3],
+  },
+];
+
+const TOP_SKILLS = [
+  { name: 'Unity', icon: 'fa-brands fa-unity' },
+  { name: 'C#', icon: 'fa-solid fa-code' },
+  { name: 'Python', icon: 'fa-brands fa-python' },
+  { name: 'React', icon: 'fa-brands fa-react' },
+  { name: 'C++', icon: 'fa-solid fa-terminal' },
+  { name: 'JavaScript', icon: 'fa-brands fa-js' },
+  { name: 'Aseprite', icon: 'fa-solid fa-palette' },
+  { name: 'Node.js', icon: 'fa-brands fa-node-js' },
+  { name: 'HTML', icon: 'fa-brands fa-html5' },
+  { name: 'CSS', icon: 'fa-brands fa-css3-alt' },
+];
+
+const PROJECT_FILTERS = [
+  { label: 'All Projects', category: null },
+  { label: 'Games', category: 'Game Development' },
+  { label: 'Websites', category: 'Website' },
+  { label: 'Mobile Apps', category: 'Mobile App' },
+];
+
+function ProjectCarousel({ images, title }) {
+  const [activeImage, setActiveImage] = useState(0);
 
   useEffect(() => {
-    if (!localSlides.length) return;
-    let timer = null;
-    const advance = () => setIndex(p => (p + 1) % localSlides.length);
-
-    const schedule = () => {
-      const s = localSlides[index];
-      const explicit = s && s.delay;
-      if (s && s.type === 'video') {
-        const vid = videoRefs.current[index];
-        const startTimer = (d) => {
-          if (explicit && !isNaN(explicit)) {
-            timer = setTimeout(advance, Math.max(3000, Math.min(explicit * 1000, 60000)));
-            return;
-          }
-          const delay = (!d || isNaN(d)) ? 3000 : Math.max(3000, Math.min(d * 1000, 15000));
-          timer = setTimeout(advance, delay);
-        };
-        if (explicit && !isNaN(explicit)) {
-          startTimer();
-        } else if (vid) {
-          if (vid.readyState >= 1 && vid.duration && !isNaN(vid.duration)) startTimer(vid.duration);
-          else {
-            const onLoaded = () => { startTimer(vid.duration); vid.removeEventListener('loadedmetadata', onLoaded); };
-            vid.addEventListener('loadedmetadata', onLoaded);
-            timer = setTimeout(advance, 3000);
-          }
-        } else timer = setTimeout(advance, 3000);
-      } else {
-        timer = setTimeout(advance, 3000);
-      }
-    };
-
-    schedule();
-    return () => clearTimeout(timer);
-  }, [localSlides.length, index]);
+    if (images.length < 2) return undefined;
+    const interval = window.setInterval(() => {
+      setActiveImage((current) => (current + 1) % images.length);
+    }, 3000);
+    return () => window.clearInterval(interval);
+  }, [images.length]);
 
   return (
-    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-      {localSlides.map((s, i) => (
-        s.type === 'video' ? (
-          <video
-            key={i}
-            ref={el => (videoRefs.current[i] = el)}
-            src={s.src}
-            alt={`${alt} ${i + 1}`}
-            style={{
-              position: 'absolute', inset: 0, width: '100%', height: '100%',
-              objectFit: 'cover', opacity: index === i ? 1 : 0,
-              transition: 'opacity 0.6s ease-in-out'
-            }}
-            autoPlay
-            loop
-            muted
-            playsInline
-          />
-        ) : (
-          <img key={i} src={s.src} alt={`${alt} ${i + 1}`} style={{
-            position: 'absolute', inset: 0, width: '100%', height: '100%',
-            objectFit: 'cover', opacity: index === i ? 1 : 0,
-            transition: 'opacity 0.6s ease-in-out'
-          }} />
-        )
+    <div className="project-carousel">
+      {images.map((image, index) => (
+        <img
+          key={image}
+          className={`project-slide${activeImage === index ? ' is-active' : ''}`}
+          src={image}
+          alt={activeImage === index ? `${title} preview ${index + 1}` : ''}
+          loading="lazy"
+        />
       ))}
+      {images.length > 1 && (
+        <div className="project-carousel-dots" aria-hidden="true">
+          {images.map((image, index) => (
+            <span key={image} className={activeImage === index ? 'is-active' : ''} />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
 
-const FILTERS = ['All Projects', 'Game Development', 'Website', 'Mobile App'];
-
-function HomePage() {
-  const [activeFilter, setActiveFilter] = useState('All Projects');
-  const location = useLocation();
-  const filtersRef = useRef(null);
-
-  // Scroll to section when navigated here from another page (e.g. ProjectPage nav links)
-  useEffect(() => {
-    const target = location.state?.scrollTo;
-    if (!target) return;
-    let attempts = 0;
-    const tryScroll = () => {
-      const el = document.getElementById(target);
-      if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'start' }); return; }
-      if (attempts++ < 12) setTimeout(tryScroll, 80);
-    };
-    setTimeout(tryScroll, 50);
-  }, [location.state]);
-
-  const scrollTo = (id) => {
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  };
+function App() {
+  const [launched, setLaunched] = useState({});
+  const [openAbout, setOpenAbout] = useState(null);
+  const [activeProjectFilter, setActiveProjectFilter] = useState('All Projects');
+  const returnTimers = useRef({});
 
   useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-    return () => document.querySelectorAll('.fade-in').forEach(el => observer.unobserve(el));
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.14, rootMargin: '0px 0px -8% 0px' },
+    );
+
+    document.querySelectorAll('[data-reveal]').forEach((element) => observer.observe(element));
+
+    return () => observer.disconnect();
+  }, [activeProjectFilter]);
+
+  useEffect(() => () => {
+    Object.values(returnTimers.current).forEach(window.clearTimeout);
   }, []);
 
-  const filtered = activeFilter === 'All Projects'
-    ? ALL_PROJECTS
-    : ALL_PROJECTS.filter(p => p.category === activeFilter);
+  const selectedCategory = PROJECT_FILTERS.find((filter) => filter.label === activeProjectFilter)?.category;
+  const visibleProjects = selectedCategory
+    ? FEATURED_PROJECTS.filter((project) => project.category === selectedCategory)
+    : FEATURED_PROJECTS;
+
+  const launchObject = (event, id) => {
+    if (launched[id]) return;
+
+    const rect = event.currentTarget.getBoundingClientRect();
+    const objectX = rect.left + rect.width / 2;
+    const objectY = rect.top + rect.height / 2;
+    let directionX = objectX - window.innerWidth / 2;
+    let directionY = objectY - window.innerHeight / 2;
+    const length = Math.hypot(directionX, directionY) || 1;
+
+    directionX /= length;
+    directionY /= length;
+
+    const distance = Math.max(window.innerWidth, window.innerHeight) * 1.2;
+    const wobble = (Math.random() - 0.5) * 180;
+
+    setLaunched((current) => ({
+      ...current,
+      [id]: {
+        x: directionX * distance + directionY * wobble,
+        y: directionY * distance - directionX * wobble,
+        rotation: `${directionX > 0 ? 42 : -42}deg`,
+      },
+    }));
+
+    window.clearTimeout(returnTimers.current[id]);
+    returnTimers.current[id] = window.setTimeout(() => {
+      setLaunched((current) => {
+        const next = { ...current };
+        delete next[id];
+        return next;
+      });
+      delete returnTimers.current[id];
+    }, 5000);
+  };
 
   return (
-    <>
-      {/* Navigation */}
-      <nav>
-        <a href="#/" className="logo" onClick={(e) => { e.preventDefault(); scrollTo('home'); }}>&lt;Ghiath<span>Dev</span>/&gt;</a>
-        <div className="nav-links">
-          <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('home'); }}>Home</a>
-          <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('about'); }}>About</a>
-          <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('projects'); }}>Projects</a>
-          <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('contact'); }}>Contact</a>
-        </div>
-        <div className="nav-controls">
-          <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('contact'); }} className="btn btn-primary" style={{ fontSize: '0.8rem', padding: '0.5rem 1.2rem' }}>Let's Talk</a>
-        </div>
-      </nav>
+    <main className="landing">
+      <header className="topbar">
+        <a className="brand" href="#top" aria-label="Ghiath Alabed home">
+          GHIATH<span>®</span>
+        </a>
+        <nav className="main-nav" aria-label="Main navigation">
+          <a href="#about">ABOUT</a>
+          <a href="#projects">PROJECTS</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+        <a className="contact-link" href="mailto:alabedghiath8@gmail.com">LET'S TALK ↗</a>
+      </header>
 
-      {/* ── HERO ── */}
-      <section className="hero" id="home">
-        <div className="hero-left fade-in">
-          <div className="hero-subtitle">&lt; Creative Developer & Computer Engineer &gt;</div>
-          <h1>GHIATH ALABED</h1>
-          <p style={{ color: 'var(--text-muted)', maxWidth: '520px', margin: '1.5rem 0' }}>
-            Bridging the gap between software engineering and game design. Focused on building
-            high-performance interactive experiences using Unity and modern software architecture.
-          </p>
-          <div style={{ marginTop: '2rem' }}>
-            <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('projects'); }} className="btn btn-primary">View Projects</a>
-            <a href="#/" onClick={(e) => { e.preventDefault(); scrollTo('about'); }} className="btn btn-primary" style={{ marginLeft: '1rem' }}>About Me</a>
-          </div>
-          <div className="social-icons">
-            <a href="https://github.com/ghiath-alabed" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i className="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/ghiath-al-abed-034a4239a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i className="fab fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/ghiath.codes/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
-          </div>
+      <section className="hero-stage" id="top" aria-label="Ghiath Alabed introduction">
+        <p className="eyebrow">PLAYFUL CODE. SERIOUS CRAFT.</p>
+        <div className="nameplate" aria-hidden="true">GHIATH</div>
+
+        <div className="portrait-wrap">
+          <div className="portrait-halo" />
+          <img className="portrait" src={portrait} alt="Ghiath Alabed" />
         </div>
-        <div className="hero-right">
-          <HeroCubes />
+
+        <div className="objects-layer" aria-label="Interactive floating objects">
+          {OBJECTS.map((item) => {
+            const exit = launched[item.id];
+            return (
+              <button
+                key={item.id}
+                type="button"
+                className={`floating-object ${item.className}${exit ? ' is-launched' : ''}`}
+                style={{
+                  '--swing-duration': item.duration,
+                  '--swing-delay': item.delay,
+                  '--exit-x': exit ? `${exit.x}px` : '0px',
+                  '--exit-y': exit ? `${exit.y}px` : '0px',
+                  '--exit-rotation': exit?.rotation || '0deg',
+                }}
+                onClick={(event) => launchObject(event, item.id)}
+                aria-label={`${item.label} — click to send it flying; it returns after five seconds`}
+              >
+                <span className="object-swing">
+                  <img src={item.src} alt="" draggable="false" />
+                </span>
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="hero-meta">
+          <p>COMPUTER ENGINEER<br />&amp; GAME DEVELOPER</p>
+          <a className="scroll-cue" href="#about" aria-label="Scroll to about section">
+            SCROLL <span>↓</span>
+          </a>
+          <p className="interaction-hint"><span>CLICK</span> AN OBJECT<br />IT RETURNS IN 5 SEC</p>
         </div>
       </section>
 
-      {/* ── ABOUT ME ── */}
-      <section className="section" id="about">
-        <div className="section-header fade-in" style={{ textAlign: 'center' }}>
-          <h2>About Me</h2>
-          <div className="line" style={{ margin: '0.75rem auto 0' }}></div>
+      <section className="about-section content-section" id="about">
+        <div className="section-kicker reveal" data-reveal>
+          <span>01</span>
+          <p>ABOUT ME</p>
         </div>
 
-        <div className="about-grid fade-in">
-          {/* Left card */}
-          <div className="about-card">
-            <div className="about-avatar">
-              <div className="avatar-ring">
-                <img src={ppAvatar} alt="Ghiath Alabed" className="avatar-img" />
+        <div className="about-grid">
+          <div className="about-headline reveal" data-reveal>
+            <h2>I build ideas<br />you can <em>feel.</em></h2>
+          </div>
+
+          <div className="about-copy reveal" data-reveal>
+            <article className={`about-content-block${openAbout === 'journey' ? ' is-open' : ''}`}>
+              <button
+                className="about-accordion-trigger"
+                type="button"
+                onClick={() => setOpenAbout((current) => current === 'journey' ? null : 'journey')}
+                aria-expanded={openAbout === 'journey'}
+                aria-controls="journey-content"
+              >
+                <span className="about-accordion-title"><i className="fa-solid fa-rocket" />My Journey</span>
+                <span className="about-accordion-mark"><i className="fa-solid fa-plus" /></span>
+              </button>
+              <div className="about-accordion-panel" id="journey-content">
+                <div className="about-accordion-inner">
+                  <p>
+                    I am a passionate software engineer with a strong background in <strong>game
+                    development</strong> and <strong>full-stack web technologies</strong>. My journey
+                    started with creating interactive worlds in Unity, which evolved into building
+                    scalable, high-performance applications that solve real-world problems.
+                  </p>
+                </div>
               </div>
-              <div className="avatar-online" />
-            </div>
-            <h3 className="about-name">Ghiath Alabed</h3>
-            <p className="about-role">COMPUTER ENGINEER</p>
-            <p className="about-bio">
-              Passionate game developer with expertise in Unity and C#. Creating immersive gaming
-              experiences and always looking for new challenges!
-            </p>
-            <p className="about-skills-label">TOP SKILLS</p>
-            <div className="about-skill-tags">
-              {[
-                { icon: 'fas fa-gamepad', label: 'Unity', color: '#38bdf8' },
-                { icon: 'fas fa-code', label: 'C#', color: '#38bdf8' },
-                { icon: 'fab fa-python', label: 'Python', color: '#38bdf8' },
-                { icon: 'fab fa-react', label: 'React', color: '#38bdf8' },
-                { icon: 'fas fa-terminal', label: 'C++', color: '#38bdf8' },
-                { icon: 'fab fa-js', label: 'JavaScript', color: '#38bdf8' },
-                { icon: 'fas fa-palette', label: 'Aseprite', color: '#38bdf8' },
-                { icon: 'fab fa-node-js', label: 'Node.js', color: '#38bdf8' },
-                { icon: 'fab fa-html5', label: 'HTML', color: '#38bdf8' },
-                { icon: 'fab fa-css3-alt', label: 'CSS', color: '#38bdf8' },
-              ].map(({ icon, label, color }) => (
-                <span key={label} className="about-skill-tag">
-                  <i className={icon} style={{ color, fontSize: '0.75rem' }}></i>
-                  {label}
-                </span>
+            </article>
+
+            <article className={`about-content-block${openAbout === 'work' ? ' is-open' : ''}`}>
+              <button
+                className="about-accordion-trigger"
+                type="button"
+                onClick={() => setOpenAbout((current) => current === 'work' ? null : 'work')}
+                aria-expanded={openAbout === 'work'}
+                aria-controls="work-content"
+              >
+                <span className="about-accordion-title"><i className="fa-solid fa-code" />What I Do</span>
+                <span className="about-accordion-mark"><i className="fa-solid fa-plus" /></span>
+              </button>
+              <div className="about-accordion-panel" id="work-content">
+                <div className="about-accordion-inner">
+                  <ul className="about-work-list">
+                    <li>Developing high-performance web applications using <strong>React</strong> and <strong>JavaScript</strong>.</li>
+                    <li>Creating immersive interactive experiences with <strong>Unity</strong> and <strong>C#</strong>.</li>
+                    <li>Designing and implementing cross-platform mobile applications with <strong>React Native</strong> and <strong>Expo</strong>.</li>
+                    <li>Designing engaging level layouts and programming complex game mechanics.</li>
+                    <li>Crafting intuitive user interfaces and integrating immersive sound effects.</li>
+                    <li>Building pixel-art assets and game animations with <strong>Aseprite</strong>.</li>
+                    <li>Crafting backend systems and APIs to power scalable solutions.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div className="about-bottom reveal" data-reveal>
+          <div className="mini-stat"><strong>3+</strong><span>YEARS<br />BUILDING</span></div>
+          <div className="mini-stat"><strong>10+</strong><span>PROJECTS<br />SHIPPED</span></div>
+          <div className="skills-wrap">
+            <p>TOP SKILLS</p>
+            <div className="skills-cloud" aria-label="Core skills">
+              {TOP_SKILLS.map((skill) => (
+                <span key={skill.name}><i className={skill.icon} />{skill.name}</span>
               ))}
             </div>
-            <div className="about-stats">
-              <div><span className="stat-num">3+</span><span className="stat-lbl">YEARS EXP</span></div>
-              <div><span className="stat-num">10+</span><span className="stat-lbl">PROJECTS</span></div>
-              <div><span className="stat-num">100%</span><span className="stat-lbl">PASSION</span></div>
-            </div>
-          </div>
-
-          {/* Right content */}
-          <div className="about-content">
-            <div className="about-block">
-              <h4><span className="about-icon"><i className="fas fa-rocket"></i></span> My Journey</h4>
-              <p>
-                I am a passionate software engineer with a strong background in <strong>game development</strong> and{' '}
-                <strong>full-stack web technologies</strong>. My journey started with creating interactive worlds
-                in Unity, which evolved into building scalable, high-performance applications that solve
-                real-world problems.
-              </p>
-            </div>
-            <div className="about-block">
-              <h4><span className="about-icon"><i className="fas fa-code"></i></span> What I Do</h4>
-              <ul className="about-list">
-                <li>Developing high-performance web applications using <strong>React</strong> and <strong>JavaScript</strong>.</li>
-                <li>Creating immersive interactive experiences with <strong>Unity</strong> and <strong>C#</strong>.</li>
-                <li>Designing and implementing cross-platform mobile applications with <strong>React Native</strong> and <strong>Expo</strong>.</li>
-                <li>Designing engaging level layouts and programming complex game mechanics.</li>
-                <li>Crafting intuitive user interfaces and integrating immersive sound effects.</li>
-                <li>Building pixel-art assets and game animations with <strong>Aseprite</strong>.</li>
-                <li>Crafting backend systems and APIs to power scalable solutions.</li>
-              </ul>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* ── FEATURED PROJECTS ── */}
-      <section style={{ padding: '6rem 5%' }} id="projects">
-        <div className="fade-in" style={{ textAlign: 'center', marginBottom: '3rem' }}>
-          <h2 className="featured-title" style={{ marginBottom: '1rem' }}>
-            Featured Projects
-          </h2>
-          <p style={{ color: 'var(--text-muted)', maxWidth: '560px', margin: '0 auto 2rem' }}>
-            A selection of my recent work, ranging from web applications to game development.
-          </p>
-          <div className="project-filters" ref={filtersRef}>
-            {FILTERS.map(f => (
-              <button
-                key={f}
-                className={`filter-btn${activeFilter === f ? ' active' : ''}`}
-                onClick={() => setActiveFilter(f)}
-              >{f}</button>
+      <section className="projects-section content-section" id="projects">
+        <div className="projects-heading reveal" data-reveal>
+          <div className="section-kicker section-kicker-light">
+            <span>02</span>
+            <p>SELECTED PROJECTS</p>
+          </div>
+          <h2>Work that moves.</h2>
+          <p>A selection of digital products, experiments and game worlds.</p>
+        </div>
+
+        <div className="projects-layout">
+          <aside className="project-filter-bar" aria-label="Project filters">
+            <div>
+              <p className="project-filter-label">PROJECT INDEX</p>
+              <div className="project-filter-list">
+                {PROJECT_FILTERS.map((filter, index) => (
+                  <button
+                    type="button"
+                    key={filter.label}
+                    className={activeProjectFilter === filter.label ? 'is-active' : ''}
+                    onClick={() => setActiveProjectFilter(filter.label)}
+                  >
+                    <span>{String(index + 1).padStart(2, '0')}</span>
+                    {filter.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <p className="project-filter-count">{String(visibleProjects.length).padStart(2, '0')} PROJECTS</p>
+          </aside>
+
+          <div className="projects-grid">
+            {visibleProjects.map((project, index) => (
+              <article
+                className="project-card reveal"
+                data-reveal
+                key={`${activeProjectFilter}-${project.slug}`}
+                style={{ '--reveal-delay': `${index * 120}ms` }}
+              >
+                <a
+                  className="project-visual"
+                  href={project.liveUrl || '#contact'}
+                  target={project.liveUrl ? '_blank' : undefined}
+                  rel={project.liveUrl ? 'noreferrer' : undefined}
+                  aria-label={`${project.title}${project.liveUrl ? ' live website' : ''}`}
+                >
+                  <ProjectCarousel images={project.images} title={project.title} />
+                  <span className="project-index">{String(index + 1).padStart(2, '0')}</span>
+                  <span className="project-open">OPEN ↗</span>
+                </a>
+                <div className="project-info">
+                  <div>
+                    <p>{project.category}</p>
+                    <h3>{project.title}</h3>
+                  </div>
+                  <div className="project-tags">
+                    {project.tags.slice(0, 3).map((tag) => <span key={tag}>{tag}</span>)}
+                  </div>
+                </div>
+              </article>
             ))}
           </div>
         </div>
-
-        <div className="projects-grid fade-in">
-          {filtered.map((proj) => (
-            <div key={proj.title} className="project-card">
-              <div className="card-img">
-                <Carousel
-                  slides={proj.video ? [{ type: 'video', src: proj.video, delay: proj.videoDelay }, ...proj.images.map(s => ({ type: 'image', src: s }))] : proj.images}
-                  alt={proj.title}
-                />
-                <span className="card-category-badge">{proj.category}</span>
-              </div>
-              <div className="card-content">
-                <div className="card-top-row">
-                  <h3>
-                    {proj.titleHighlight
-                      ? (() => {
-                        const idx = proj.title.indexOf(proj.titleHighlight);
-                        if (idx === -1) return proj.title;
-                        return (
-                          <>
-                            {proj.title.slice(0, idx)}
-                            <span style={{ color: '#38bdf8' }}>{proj.titleHighlight}</span>
-                            {proj.title.slice(idx + proj.titleHighlight.length)}
-                          </>
-                        );
-                      })()
-                      : proj.title}
-                  </h3>
-                  <Link to={`/project/${proj.slug}`} className="card-ext-link" aria-label="Open project" onClick={() => window.scrollTo(0, 0)}>
-                    <i className="fas fa-external-link-alt"></i>
-                  </Link>
-                </div>
-                <div className="card-tech">
-                  {proj.tags.map(t => <span key={t} className="tech-tag">{t}</span>)}
-                </div>
-                <Link to={`/project/${proj.slug}`} className="card-details-btn" onClick={() => window.scrollTo(0, 0)}>Details &rarr;</Link>
-              </div>
-            </div>
-          ))}
-        </div>
       </section>
 
-      {/* ── CONTACT ── */}
-      <section className="contact-section fade-in" id="contact">
-        <div className="contact-left">
-          <h2 className="contact-title">Ready to<br />Collaborate?</h2>
-          <p className="contact-sub">I am currently open for freelance projects and full-time opportunities.</p>
-        </div>
-        <div className="contact-right">
-          <a href="mailto:alabedghiath8@gmail.com" className="btn btn-primary contact-float-btn">
-            Say Hello <i className="fas fa-paper-plane" style={{ marginLeft: '8px' }}></i>
+      <section className="contact-section content-section" id="contact">
+        <div className="contact-orbit" aria-hidden="true"><span>AVAILABLE FOR NEW PROJECTS • </span></div>
+        <div className="contact-content reveal" data-reveal>
+          <div className="section-kicker section-kicker-light">
+            <span>03</span>
+            <p>CONTACT</p>
+          </div>
+          <p className="contact-intro">HAVE AN IDEA?</p>
+          <h2>Let’s make it<br /><em>move.</em></h2>
+          <a className="contact-button" href="mailto:alabedghiath8@gmail.com">
+            <span>START A CONVERSATION</span>
+            <strong>↗</strong>
           </a>
-          <a href="https://www.linkedin.com/in/ghiath-al-abed-034a4239a/" className="btn btn-primary contact-float-btn contact-float-btn--delay" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-linkedin" style={{ marginRight: '8px' }}></i>LinkedIn
-          </a>
         </div>
+
+        <footer className="site-footer">
+          <p>© 2026 GHIATH ALABED</p>
+          <div>
+            <a href="https://github.com/ghiath-alabed" target="_blank" rel="noreferrer">GITHUB</a>
+            <a href="https://www.linkedin.com/in/ghiath-al-abed-034a4239a/" target="_blank" rel="noreferrer">LINKEDIN</a>
+            <a href="https://www.instagram.com/ghiath.codes/" target="_blank" rel="noreferrer">INSTAGRAM</a>
+          </div>
+          <a href="#top">BACK TO TOP ↑</a>
+        </footer>
       </section>
-
-      <footer>
-        <p>&copy; 2026 Ghiath Developer. Built with <span style={{ color: 'var(--burgundy)' }}>&#10084;</span> and Code.</p>
-      </footer>
-    </>
-  );
-}
-
-function App() {
-  return (
-    <>
-      <StarField />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/project/:slug" element={<ProjectPage />} />
-      </Routes>
-    </>
+    </main>
   );
 }
 
