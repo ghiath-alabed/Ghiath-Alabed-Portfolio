@@ -1366,12 +1366,16 @@ a:focus-visible {
   .projects-section {
     padding-top: 82px;
     padding-bottom: 92px;
+    overflow: hidden;
     border-radius: 25px 25px 0 0;
   }
 
   .projects-layout {
     grid-template-columns: 1fr;
     gap: 26px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   .project-filter-bar {
@@ -1422,16 +1426,32 @@ a:focus-visible {
     grid-template-columns: 1fr;
     gap: 44px;
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
   .project-card {
     width: 100%;
+    max-width: 100%;
     min-width: 0;
+    overflow: hidden;
   }
 
   .project-visual {
     width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
     border-radius: 18px;
+  }
+
+  .project-carousel,
+  .project-slide {
+    max-width: 100%;
+  }
+
+  .project-slide {
+    object-fit: contain;
+    background: #181818;
   }
 
   .project-card.reveal {

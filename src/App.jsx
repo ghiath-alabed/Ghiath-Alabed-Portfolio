@@ -239,7 +239,7 @@ function App() {
           <a href="#projects">PROJECTS</a>
           <a href="#contact">CONTACT</a>
         </nav>
-        <a className="contact-link" href="mailto:alabedghiath8@gmail.com">LET'S TALK ↗</a>
+        <a className="contact-link" href="mailto:ghiath@luminisst.com">LET'S TALK ↗</a>
       </header>
 
       <section className="hero-stage" id="top" aria-label="Ghiath Alabed introduction">
