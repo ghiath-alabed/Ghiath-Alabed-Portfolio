@@ -500,7 +500,7 @@ function App() {
           </div>
           <p className="contact-intro">HAVE AN IDEA?</p>
           <h2>Let’s make it<br /><em>move.</em></h2>
-          <a className="contact-button" href="mailto:alabedghiath8@gmail.com">
+          <a className="contact-button" href="mailto:ghiath@luminisst.com">
             <span>START A CONVERSATION</span>
             <strong>↗</strong>
           </a>
