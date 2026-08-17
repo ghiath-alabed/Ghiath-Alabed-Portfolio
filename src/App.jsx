@@ -30,6 +30,10 @@ import badReview5 from './assets/bad review/5.png';
 import badReview6 from './assets/bad review/6.png';
 import badReview7 from './assets/bad review/7.png';
 import badReview8 from './assets/bad review/8.png';
+import shawarmaExpress1 from './assets/shawarma express/1.png';
+import shawarmaExpress2 from './assets/shawarma express/2.png';
+import shawarmaExpress3 from './assets/shawarma express/3.png';
+import shawarmaExpress4 from './assets/shawarma express/4.png';
 
 const OBJECTS = [
   {
@@ -129,6 +133,14 @@ const FEATURED_PROJECTS = [
     category: 'Game Development',
     tags: ['Unity', 'C#'],
     images: [swarmCover, swarm2, swarm3],
+  },
+  {
+    slug: 'shawarma-express',
+    title: 'Shawarma Express',
+    category: 'Partner Project',
+    tags: ['Partner Project', 'Website'],
+    images: [shawarmaExpress1, shawarmaExpress2, shawarmaExpress3, shawarmaExpress4],
+    liveUrl: 'https://shawarma-express-ten.vercel.app/',
   },
 ];
 
