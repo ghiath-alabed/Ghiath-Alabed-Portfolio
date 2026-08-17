@@ -22,6 +22,14 @@ import sidequestCover from './assets/Sidequest1.png';
 import swarmCover from './assets/swarm.png';
 import swarm2 from './assets/swarm2.png';
 import swarm3 from './assets/swarm3.png';
+import badReview1 from './assets/bad review/1.png';
+import badReview2 from './assets/bad review/2.png';
+import badReview3 from './assets/bad review/3.png';
+import badReview4 from './assets/bad review/4.png';
+import badReview5 from './assets/bad review/5.png';
+import badReview6 from './assets/bad review/6.png';
+import badReview7 from './assets/bad review/7.png';
+import badReview8 from './assets/bad review/8.png';
 
 const OBJECTS = [
   {
@@ -84,6 +92,24 @@ const FEATURED_PROJECTS = [
     liveUrl: 'https://lazyball.online/',
   },
   {
+    slug: 'bad-review',
+    title: 'Bad Review',
+    category: 'Game Jam',
+    categories: ['Game Development', 'Game Jam'],
+    tags: ['Unity', 'C#', 'Game Jam'],
+    images: [
+      badReview1,
+      badReview2,
+      badReview3,
+      badReview4,
+      badReview5,
+      badReview6,
+      badReview7,
+      badReview8,
+    ],
+    liveUrl: 'https://ghiath-alabed.itch.io/bad-review',
+  },
+  {
     slug: 'stick-torture',
     title: 'Stick Torture',
     category: 'Game Development',
@@ -122,8 +148,10 @@ const TOP_SKILLS = [
 const PROJECT_FILTERS = [
   { label: 'All Projects', category: null },
   { label: 'Games', category: 'Game Development' },
+  { label: 'Game Jams', category: 'Game Jam' },
   { label: 'Websites', category: 'Website' },
   { label: 'Mobile Apps', category: 'Mobile App' },
+  { label: 'Partners Projects', category: 'Partner Project' },
 ];
 
 function ProjectCarousel({ images, title }) {
@@ -189,7 +217,9 @@ function App() {
 
   const selectedCategory = PROJECT_FILTERS.find((filter) => filter.label === activeProjectFilter)?.category;
   const visibleProjects = selectedCategory
-    ? FEATURED_PROJECTS.filter((project) => project.category === selectedCategory)
+    ? FEATURED_PROJECTS.filter((project) => (
+      project.category === selectedCategory || project.categories?.includes(selectedCategory)
+    ))
     : FEATURED_PROJECTS;
 
   const launchObject = (event, id) => {
