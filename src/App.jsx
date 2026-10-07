@@ -112,6 +112,7 @@ const FEATURED_PROJECTS = [
     tags: ['Unity', 'C#'],
     images: [lazyBallCover, lazyBall2, lazyBall3],
     liveUrl: 'https://lazyball.online/',
+    detailUrl: '/games/lazy-ball',
   },
   {
     slug: 'lazy-cargo',
@@ -131,6 +132,7 @@ const FEATURED_PROJECTS = [
       lazyCargo1,
     ],
     portrait: true,
+    detailUrl: '/games/lazy-cargo',
   },
   {
     slug: 'between-the-letters',
@@ -148,6 +150,7 @@ const FEATURED_PROJECTS = [
       betweenTheLetters1,
     ],
     portrait: true,
+    detailUrl: '/games/between-the-letters',
   },
   {
     slug: 'bad-review',
@@ -279,6 +282,16 @@ function App() {
   const [openAbout, setOpenAbout] = useState(null);
   const [activeProjectFilter, setActiveProjectFilter] = useState('All Projects');
   const returnTimers = useRef({});
+
+  useEffect(() => {
+    if (!window.location.hash) return undefined;
+
+    const scrollToHash = () => {
+      document.querySelector(window.location.hash)?.scrollIntoView({ block: 'start' });
+    };
+    const timer = window.setTimeout(scrollToHash, 60);
+    return () => window.clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -542,10 +555,10 @@ function App() {
               >
                 <a
                   className="project-visual"
-                  href={project.liveUrl || '#contact'}
-                  target={project.liveUrl ? '_blank' : undefined}
-                  rel={project.liveUrl ? 'noreferrer' : undefined}
-                  aria-label={`${project.title}${project.liveUrl ? ' live website' : ''}`}
+                  href={project.detailUrl || project.liveUrl || '#contact'}
+                  target={!project.detailUrl && project.liveUrl ? '_blank' : undefined}
+                  rel={!project.detailUrl && project.liveUrl ? 'noreferrer' : undefined}
+                  aria-label={`${project.title}${project.detailUrl ? ' project page' : project.liveUrl ? ' live website' : ''}`}
                 >
                   <ProjectCarousel
                     images={project.images}
