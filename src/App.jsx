@@ -34,6 +34,24 @@ import shawarmaExpress1 from './assets/shawarma express/1.png';
 import shawarmaExpress2 from './assets/shawarma express/2.png';
 import shawarmaExpress3 from './assets/shawarma express/3.png';
 import shawarmaExpress4 from './assets/shawarma express/4.png';
+import lazyCargo1 from './assets/LazyCargo/1.png';
+import lazyCargo2 from './assets/LazyCargo/2.png';
+import lazyCargo3 from './assets/LazyCargo/3.png';
+import lazyCargo4 from './assets/LazyCargo/4.png';
+import lazyCargo5 from './assets/LazyCargo/5.png';
+import lazyCargo6 from './assets/LazyCargo/6.png';
+import lazyCargo7 from './assets/LazyCargo/7.png';
+import lazyCargo8 from './assets/LazyCargo/8.png';
+import lazyCargo9 from './assets/LazyCargo/9.png';
+import lazyCargo10 from './assets/LazyCargo/10.png';
+import betweenTheLetters1 from './assets/BTL/1.png';
+import betweenTheLetters2 from './assets/BTL/2.png';
+import betweenTheLetters3 from './assets/BTL/3.png';
+import betweenTheLetters4 from './assets/BTL/4.png';
+import betweenTheLetters5 from './assets/BTL/5.png';
+import betweenTheLetters6 from './assets/BTL/6.png';
+import betweenTheLetters7 from './assets/BTL/7.png';
+import betweenTheLetters8 from './assets/BTL/8.png';
 
 const OBJECTS = [
   {
@@ -94,6 +112,42 @@ const FEATURED_PROJECTS = [
     tags: ['Unity', 'C#'],
     images: [lazyBallCover, lazyBall2, lazyBall3],
     liveUrl: 'https://lazyball.online/',
+  },
+  {
+    slug: 'lazy-cargo',
+    title: 'Lazy Cargo',
+    category: 'Game Development',
+    tags: ['Unity', 'C#', 'Mobile'],
+    images: [
+      lazyCargo2,
+      lazyCargo3,
+      lazyCargo4,
+      lazyCargo5,
+      lazyCargo6,
+      lazyCargo7,
+      lazyCargo8,
+      lazyCargo9,
+      lazyCargo10,
+      lazyCargo1,
+    ],
+    portrait: true,
+  },
+  {
+    slug: 'between-the-letters',
+    title: 'Between The Letters',
+    category: 'Game Development',
+    tags: ['Unity', 'C#', 'Mobile'],
+    images: [
+      betweenTheLetters2,
+      betweenTheLetters3,
+      betweenTheLetters4,
+      betweenTheLetters5,
+      betweenTheLetters6,
+      betweenTheLetters7,
+      betweenTheLetters8,
+      betweenTheLetters1,
+    ],
+    portrait: true,
   },
   {
     slug: 'bad-review',
@@ -166,7 +220,7 @@ const PROJECT_FILTERS = [
   { label: 'Partners Projects', category: 'Partner Project' },
 ];
 
-function ProjectCarousel({ images, title }) {
+function ProjectCarousel({ images, title, portrait = false }) {
   const [activeImage, setActiveImage] = useState(0);
 
   useEffect(() => {
@@ -178,15 +232,36 @@ function ProjectCarousel({ images, title }) {
   }, [images.length]);
 
   return (
-    <div className="project-carousel">
+    <div className={`project-carousel${portrait ? ' project-carousel--portrait' : ''}`}>
       {images.map((image, index) => (
-        <img
-          key={image}
-          className={`project-slide${activeImage === index ? ' is-active' : ''}`}
-          src={image}
-          alt={activeImage === index ? `${title} preview ${index + 1}` : ''}
-          loading="lazy"
-        />
+        portrait ? (
+          <div
+            key={image}
+            className={`project-slide project-slide--portrait${activeImage === index ? ' is-active' : ''}`}
+          >
+            <img
+              className="project-slide-backdrop"
+              src={image}
+              alt=""
+              aria-hidden="true"
+              loading="lazy"
+            />
+            <img
+              className="project-slide-foreground"
+              src={image}
+              alt={activeImage === index ? `${title} preview ${index + 1}` : ''}
+              loading="lazy"
+            />
+          </div>
+        ) : (
+          <img
+            key={image}
+            className={`project-slide${activeImage === index ? ' is-active' : ''}`}
+            src={image}
+            alt={activeImage === index ? `${title} preview ${index + 1}` : ''}
+            loading="lazy"
+          />
+        )
       ))}
       {images.length > 1 && (
         <div className="project-carousel-dots" aria-hidden="true">
@@ -472,7 +547,11 @@ function App() {
                   rel={project.liveUrl ? 'noreferrer' : undefined}
                   aria-label={`${project.title}${project.liveUrl ? ' live website' : ''}`}
                 >
-                  <ProjectCarousel images={project.images} title={project.title} />
+                  <ProjectCarousel
+                    images={project.images}
+                    title={project.title}
+                    portrait={project.portrait}
+                  />
                   <span className="project-index">{String(index + 1).padStart(2, '0')}</span>
                   <span className="project-open">OPEN ↗</span>
                 </a>
