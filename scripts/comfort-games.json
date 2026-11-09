@@ -1,0 +1,872 @@
+[
+  {
+    "id": "completed-1",
+    "shelf": "completed",
+    "title": "Red Dead Redemption 2",
+    "steamId": 1174180,
+    "year": 2018,
+    "hours": 86,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-2",
+    "shelf": "completed",
+    "title": "Red Dead Redemption & Undead Nightmare",
+    "steamId": 2668510,
+    "year": 2010,
+    "hours": 32.1,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-3",
+    "shelf": "completed",
+    "title": "Grand Theft Auto V",
+    "steamId": 271590,
+    "year": 2013,
+    "hours": 100,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-4",
+    "shelf": "completed",
+    "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
+    "steamId": 1547000,
+    "year": 2021,
+    "hours": 38.3,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-5",
+    "shelf": "completed",
+    "title": "Max Payne 2: The Fall of Max Payne",
+    "steamId": 12150,
+    "year": 2003,
+    "hours": 6.2,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-6",
+    "shelf": "completed",
+    "title": "Grand Theft Auto: Vice City – The Definitive Edition",
+    "steamId": 1546990,
+    "year": 2021,
+    "hours": 17.4,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-7",
+    "shelf": "completed",
+    "title": "Max Payne 3",
+    "steamId": 204100,
+    "year": 2012,
+    "hours": 14.4,
+    "replays": 2,
+    "note": null
+  },
+  {
+    "id": "completed-8",
+    "shelf": "completed",
+    "title": "Grand Theft Auto IV: The Complete Edition",
+    "steamId": 12210,
+    "year": 2008,
+    "hours": null,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-9",
+    "shelf": "completed",
+    "title": "Max Payne",
+    "steamId": 12140,
+    "year": 2001,
+    "hours": 7.7,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-10",
+    "shelf": "completed",
+    "title": "Grand Theft Auto: Liberty City Stories",
+    "steamId": null,
+    "year": 2005,
+    "hours": 8,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-11",
+    "shelf": "completed",
+    "title": "Grand Theft Auto III – The Definitive Edition",
+    "steamId": 1546970,
+    "year": 2021,
+    "hours": 37.6,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-12",
+    "shelf": "completed",
+    "title": "Mafia: Definitive Edition",
+    "steamId": 1030840,
+    "year": 2020,
+    "hours": 11.9,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-13",
+    "shelf": "completed",
+    "title": "Mafia II: Definitive Edition",
+    "steamId": 1030830,
+    "year": 2020,
+    "hours": 15.8,
+    "replays": 2,
+    "note": null
+  },
+  {
+    "id": "completed-14",
+    "shelf": "completed",
+    "title": "Mafia: The Old Country",
+    "steamId": null,
+    "year": 2025,
+    "hours": 16,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-15",
+    "shelf": "completed",
+    "title": "The Last of Us Part I",
+    "steamId": 1888930,
+    "year": 2023,
+    "hours": 21.2,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-16",
+    "shelf": "completed",
+    "title": "The Last of Us Part II Remastered",
+    "steamId": 2531310,
+    "year": 2025,
+    "hours": 30.5,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-17",
+    "shelf": "completed",
+    "title": "UNCHARTED: Legacy of Thieves Collection",
+    "steamId": 1659420,
+    "year": 2016,
+    "hours": 24.5,
+    "replays": 1,
+    "note": "Uncharted 4 + The Lost Legacy"
+  },
+  {
+    "id": "completed-18",
+    "shelf": "completed",
+    "title": "Ghost of Tsushima DIRECTOR'S CUT",
+    "steamId": 2215430,
+    "year": 2020,
+    "hours": 76.9,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-19",
+    "shelf": "completed",
+    "title": "Marvel's Spider-Man Remastered",
+    "steamId": 1817070,
+    "year": 2022,
+    "hours": 26,
+    "replays": 1,
+    "note": "Includes all 3 DLCs"
+  },
+  {
+    "id": "completed-20",
+    "shelf": "completed",
+    "title": "Hogwarts Legacy",
+    "steamId": 990080,
+    "year": 2023,
+    "hours": 49.4,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-21",
+    "shelf": "completed",
+    "title": "Assassin's Creed Valhalla",
+    "steamId": 2208920,
+    "year": 2020,
+    "hours": 134.5,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-22",
+    "shelf": "completed",
+    "title": "Assassin's Creed Mirage",
+    "steamId": 3035570,
+    "year": 2024,
+    "hours": 25,
+    "replays": 1,
+    "note": "Includes DLC"
+  },
+  {
+    "id": "completed-23",
+    "shelf": "completed",
+    "title": "Assassin's Creed Unity",
+    "steamId": 289650,
+    "year": 2014,
+    "hours": 27.2,
+    "replays": 1,
+    "note": "Includes DLC"
+  },
+  {
+    "id": "completed-24",
+    "shelf": "completed",
+    "title": "Assassin's Creed Syndicate",
+    "steamId": 368500,
+    "year": 2015,
+    "hours": 20.5,
+    "replays": 1,
+    "note": "Includes DLC"
+  },
+  {
+    "id": "completed-25",
+    "shelf": "completed",
+    "title": "Assassin's Creed Origins",
+    "steamId": 582160,
+    "year": 2017,
+    "hours": 49.1,
+    "replays": 1,
+    "note": "Includes DLC"
+  },
+  {
+    "id": "completed-26",
+    "shelf": "completed",
+    "title": "Watch Dogs",
+    "steamId": 243470,
+    "year": 2014,
+    "hours": 24,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-27",
+    "shelf": "completed",
+    "title": "STAR WARS Jedi: Fallen Order",
+    "steamId": 1172380,
+    "year": 2019,
+    "hours": 18.4,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-28",
+    "shelf": "completed",
+    "title": "Battlefield 1",
+    "steamId": 1238840,
+    "year": 2016,
+    "hours": 10.3,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-29",
+    "shelf": "completed",
+    "title": "Quantum Break",
+    "steamId": 474960,
+    "year": 2016,
+    "hours": 10.4,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-30",
+    "shelf": "completed",
+    "title": "Spec Ops: The Line",
+    "steamId": 50300,
+    "year": 2012,
+    "hours": 7.6,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-31",
+    "shelf": "completed",
+    "title": "Tomb Raider",
+    "steamId": 203160,
+    "year": 2013,
+    "hours": 10,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-32",
+    "shelf": "completed",
+    "title": "Rise of the Tomb Raider",
+    "steamId": 391220,
+    "year": 2016,
+    "hours": 15,
+    "replays": 1,
+    "note": "Includes Blood Ties"
+  },
+  {
+    "id": "completed-33",
+    "shelf": "completed",
+    "title": "A Plague Tale: Innocence",
+    "steamId": 752590,
+    "year": 2019,
+    "hours": 15,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-34",
+    "shelf": "completed",
+    "title": "Call of Duty: Black Ops 6",
+    "steamId": 2933620,
+    "year": 2024,
+    "hours": 7.4,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-35",
+    "shelf": "completed",
+    "title": "Sniper Elite 3",
+    "steamId": 238090,
+    "year": 2014,
+    "hours": 16,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-36",
+    "shelf": "completed",
+    "title": "Batman: Arkham Asylum GOTY Edition",
+    "steamId": 35140,
+    "year": 2010,
+    "hours": 12.5,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-37",
+    "shelf": "completed",
+    "title": "Portal",
+    "steamId": 400,
+    "year": 2007,
+    "hours": 3.1,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-38",
+    "shelf": "completed",
+    "title": "Portal 2",
+    "steamId": 620,
+    "year": 2011,
+    "hours": 7.8,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-39",
+    "shelf": "completed",
+    "title": "First Date: Late To Date",
+    "steamId": null,
+    "year": 2022,
+    "hours": 0.7,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-40",
+    "shelf": "completed",
+    "title": "Aragami",
+    "steamId": 280160,
+    "year": 2016,
+    "hours": 4.5,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-41",
+    "shelf": "completed",
+    "title": "Anomaly Agent",
+    "steamId": 2378620,
+    "year": 2024,
+    "hours": 7,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-42",
+    "shelf": "completed",
+    "title": "HITMAN 2",
+    "steamId": 863550,
+    "year": 2018,
+    "hours": 11.2,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "completed-43",
+    "shelf": "completed",
+    "title": "007 First Light",
+    "steamId": 3768760,
+    "year": 2026,
+    "hours": 27.5,
+    "replays": 1,
+    "note": null
+  },
+  {
+    "id": "backlog-1",
+    "shelf": "backlog",
+    "title": "A Plague Tale: Requiem",
+    "steamId": 1182900,
+    "year": 2023,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-2",
+    "shelf": "backlog",
+    "title": "STAR WARS Jedi: Survivor",
+    "steamId": 1774580,
+    "year": 2023,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-3",
+    "shelf": "backlog",
+    "title": "God of War",
+    "steamId": 1593500,
+    "year": 2018,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-4",
+    "shelf": "backlog",
+    "title": "Sleeping Dogs",
+    "steamId": 202170,
+    "year": 2012,
+    "hours": null,
+    "replays": null,
+    "note": "Includes 2 DLCs"
+  },
+  {
+    "id": "backlog-5",
+    "shelf": "backlog",
+    "title": "Assassin's Creed IV Black Flag",
+    "steamId": 242050,
+    "year": 2013,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-6",
+    "shelf": "backlog",
+    "title": "Mafia III: Definitive Edition",
+    "steamId": 360430,
+    "year": 2020,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-7",
+    "shelf": "backlog",
+    "title": "Battlefield V",
+    "steamId": 1238810,
+    "year": 2018,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-8",
+    "shelf": "backlog",
+    "title": "Shadow of the Tomb Raider: Definitive Edition",
+    "steamId": 750920,
+    "year": 2018,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-9",
+    "shelf": "backlog",
+    "title": "Batman: Arkham City GOTY",
+    "steamId": 200260,
+    "year": 2012,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-10",
+    "shelf": "backlog",
+    "title": "The Witcher 3: Wild Hunt",
+    "steamId": 292030,
+    "year": 2015,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-11",
+    "shelf": "backlog",
+    "title": "Cyberpunk 2077",
+    "steamId": 1091500,
+    "year": 2020,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-12",
+    "shelf": "backlog",
+    "title": "Batman: Arkham Origins",
+    "steamId": 209000,
+    "year": 2013,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-13",
+    "shelf": "backlog",
+    "title": "Batman: Arkham Knight",
+    "steamId": 208650,
+    "year": 2015,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-14",
+    "shelf": "backlog",
+    "title": "Assassin's Creed III Remastered",
+    "steamId": 911400,
+    "year": 2019,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-15",
+    "shelf": "backlog",
+    "title": "Assassin's Creed Odyssey",
+    "steamId": 812140,
+    "year": 2018,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-16",
+    "shelf": "backlog",
+    "title": "Assassin's Creed Rogue",
+    "steamId": 311560,
+    "year": 2015,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-17",
+    "shelf": "backlog",
+    "title": "Watch Dogs: Legion",
+    "steamId": 2239550,
+    "year": 2020,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-18",
+    "shelf": "backlog",
+    "title": "Watch Dogs 2",
+    "steamId": 447040,
+    "year": 2016,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-19",
+    "shelf": "backlog",
+    "title": "Sniper Elite 4",
+    "steamId": 312660,
+    "year": 2017,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-20",
+    "shelf": "backlog",
+    "title": "Tom Clancy's Splinter Cell Blacklist",
+    "steamId": 235600,
+    "year": 2013,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-21",
+    "shelf": "backlog",
+    "title": "LEGO Star Wars: The Skywalker Saga",
+    "steamId": 920210,
+    "year": 2022,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-22",
+    "shelf": "backlog",
+    "title": "Marvel's Guardians of the Galaxy",
+    "steamId": 1088850,
+    "year": 2021,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-23",
+    "shelf": "backlog",
+    "title": "Ryse: Son of Rome",
+    "steamId": 302510,
+    "year": 2014,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-24",
+    "shelf": "backlog",
+    "title": "Control Ultimate Edition",
+    "steamId": 870780,
+    "year": 2022,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-25",
+    "shelf": "backlog",
+    "title": "Alan Wake 2",
+    "steamId": null,
+    "year": 2023,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-26",
+    "shelf": "backlog",
+    "title": "Sifu",
+    "steamId": 2138710,
+    "year": 2021,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-27",
+    "shelf": "backlog",
+    "title": "Vampyr",
+    "steamId": 427290,
+    "year": 2018,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-28",
+    "shelf": "backlog",
+    "title": "Crysis Remastered",
+    "steamId": 1715130,
+    "year": 2021,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-29",
+    "shelf": "backlog",
+    "title": "Crysis 2 Remastered",
+    "steamId": 2096600,
+    "year": 2021,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-30",
+    "shelf": "backlog",
+    "title": "Crysis 3 Remastered",
+    "steamId": 2096610,
+    "year": 2021,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-31",
+    "shelf": "backlog",
+    "title": "DEATH STRANDING",
+    "steamId": 1190460,
+    "year": 2019,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-32",
+    "shelf": "backlog",
+    "title": "Far Cry 6",
+    "steamId": 2369390,
+    "year": 2021,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-33",
+    "shelf": "backlog",
+    "title": "Far Cry 3",
+    "steamId": 220240,
+    "year": 2012,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-34",
+    "shelf": "backlog",
+    "title": "Alan Wake",
+    "steamId": 108710,
+    "year": 2012,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-35",
+    "shelf": "backlog",
+    "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+    "steamId": 20920,
+    "year": 2011,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-36",
+    "shelf": "backlog",
+    "title": "Hellblade: Senua's Sacrifice",
+    "steamId": 414340,
+    "year": 2017,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-37",
+    "shelf": "backlog",
+    "title": "Call of Juarez: Gunslinger",
+    "steamId": 204450,
+    "year": 2013,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-38",
+    "shelf": "backlog",
+    "title": "Saints Row",
+    "steamId": 742420,
+    "year": 2022,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "backlog-39",
+    "shelf": "backlog",
+    "title": "Saints Row IV: Re-Elected",
+    "steamId": 206420,
+    "year": 2013,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "wishlist-1",
+    "shelf": "wishlist",
+    "title": "Grand Theft Auto VI",
+    "steamId": null,
+    "year": 2026,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "wishlist-2",
+    "shelf": "wishlist",
+    "title": "Marvel's Spider-Man 2",
+    "steamId": 2651280,
+    "year": 2025,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "wishlist-3",
+    "shelf": "wishlist",
+    "title": "Assassin's Creed Shadows",
+    "steamId": 3159330,
+    "year": 2025,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "wishlist-4",
+    "shelf": "wishlist",
+    "title": "God of War Ragnarök",
+    "steamId": 2322010,
+    "year": 2024,
+    "hours": null,
+    "replays": null,
+    "note": null
+  },
+  {
+    "id": "wishlist-5",
+    "shelf": "wishlist",
+    "title": "Senua's Saga: Hellblade II",
+    "steamId": 2461850,
+    "year": 2024,
+    "hours": null,
+    "replays": null,
+    "note": null
+  }
+]

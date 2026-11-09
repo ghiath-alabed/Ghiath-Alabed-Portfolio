@@ -1,0 +1,3567 @@
+[
+  {
+    "id": "completed-1",
+    "shelf": "completed",
+    "title": "Red Dead Redemption 2",
+    "steamId": 1174180,
+    "year": 2018,
+    "hours": 86,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Red Dead Redemption 2",
+    "genre": "Action / Adventure",
+    "metascore": 97,
+    "metacriticUrl": "https://www.metacritic.com/game/red-dead-redemption-2/?platform=playstation-4",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1174180&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1174180/",
+    "storeLabel": "Steam",
+    "cover": "/games/1174180.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 97,
+        "url": "https://www.metacritic.com/game/red-dead-redemption-2/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 97,
+        "url": "https://www.metacritic.com/game/red-dead-redemption-2/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 93,
+        "url": "https://www.metacritic.com/game/red-dead-redemption-2/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Red Dead Redemption 2",
+    "scorePlatform": "PlayStation 4",
+    "scoreSource": "https://www.metacritic.com/game/red-dead-redemption-2/?platform=playstation-4",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-2",
+    "shelf": "completed",
+    "title": "Red Dead Redemption & Undead Nightmare",
+    "steamId": 2668510,
+    "year": 2010,
+    "hours": 32.1,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Red Dead Redemption",
+    "genre": "Open-World Action",
+    "metascore": 83,
+    "metacriticUrl": "https://www.metacritic.com/game/red-dead-redemption-featuring-undead-nightmare/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2668510&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2668510/",
+    "storeLabel": "Steam",
+    "cover": "/games/2668510.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2668510/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/red-dead-redemption-featuring-undead-nightmare/?platform=pc",
+    "verifiedMetacriticTitle": "Red Dead Redemption Featuring Undead Nightmare",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 83,
+        "url": "https://www.metacritic.com/game/red-dead-redemption-featuring-undead-nightmare/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PC"
+  },
+  {
+    "id": "completed-3",
+    "shelf": "completed",
+    "title": "Grand Theft Auto V",
+    "steamId": 271590,
+    "year": 2013,
+    "hours": 100,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Grand Theft Auto V Legacy",
+    "genre": "Action / Adventure",
+    "metascore": 97,
+    "metacriticUrl": "https://www.metacritic.com/game/grand-theft-auto-v/?platform=playstation-3",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=271590&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/271590/",
+    "storeLabel": "Steam",
+    "cover": "/games/271590.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/271590/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 3",
+        "score": 97,
+        "url": "https://www.metacritic.com/game/grand-theft-auto-v/?platform=playstation-3"
+      },
+      {
+        "platform": "Xbox 360",
+        "score": 97,
+        "url": "https://www.metacritic.com/game/grand-theft-auto-v/?platform=xbox-360"
+      },
+      {
+        "platform": "PlayStation 4",
+        "score": 97,
+        "url": "https://www.metacritic.com/game/grand-theft-auto-v/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 97,
+        "url": "https://www.metacritic.com/game/grand-theft-auto-v/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 96,
+        "url": "https://www.metacritic.com/game/grand-theft-auto-v/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/grand-theft-auto-v/?platform=playstation-5"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 79,
+        "url": "https://www.metacritic.com/game/grand-theft-auto-v/?platform=xbox-series-x"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Grand Theft Auto V",
+    "scorePlatform": "PlayStation 3",
+    "scoreSource": "https://www.metacritic.com/game/grand-theft-auto-v/?platform=playstation-3",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-4",
+    "shelf": "completed",
+    "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
+    "steamId": 1547000,
+    "year": 2021,
+    "hours": 38.3,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Grand Theft Auto: San Andreas – The Definitive Edition",
+    "genre": "Open-World Action",
+    "metascore": null,
+    "metacriticUrl": "https://www.metacritic.com/game/grand-theft-auto-san-andreas-the-definitive/",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1547000&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1547000/",
+    "storeLabel": "Steam",
+    "cover": "/games/1547000.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1547000/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/grand-theft-auto-san-andreas-the-definitive/",
+    "verifiedMetacriticTitle": "Grand Theft Auto: San Andreas - The Definitive Edition",
+    "scoreStatus": "unscored",
+    "platformScores": [],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": null
+  },
+  {
+    "id": "completed-5",
+    "shelf": "completed",
+    "title": "Max Payne 2: The Fall of Max Payne",
+    "steamId": 12150,
+    "year": 2003,
+    "hours": 6.2,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Max Payne 2: The Fall of Max Payne",
+    "genre": "Action",
+    "metascore": 86,
+    "metacriticUrl": "https://www.metacritic.com/game/max-payne-2-the-fall-of-max-payne/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=12150&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/12150/",
+    "storeLabel": "Steam",
+    "cover": "/games/12150.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/12150/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/max-payne-2-the-fall-of-max-payne/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 2",
+        "score": 73,
+        "url": "https://www.metacritic.com/game/max-payne-2-the-fall-of-max-payne/?platform=playstation-2"
+      },
+      {
+        "platform": "Xbox",
+        "score": 84,
+        "url": "https://www.metacritic.com/game/max-payne-2-the-fall-of-max-payne/?platform=xbox"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Max Payne 2: The Fall of Max Payne",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/max-payne-2-the-fall-of-max-payne/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-6",
+    "shelf": "completed",
+    "title": "Grand Theft Auto: Vice City – The Definitive Edition",
+    "steamId": 1546990,
+    "year": 2021,
+    "hours": 17.4,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Grand Theft Auto: Vice City – The Definitive Edition",
+    "genre": "Open-World Action",
+    "metascore": null,
+    "metacriticUrl": "https://www.metacritic.com/game/grand-theft-auto-vice-city-the-definitive-edition/",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1546990&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1546990/",
+    "storeLabel": "Steam",
+    "cover": "/games/1546990.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1546990/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/grand-theft-auto-vice-city-the-definitive-edition/",
+    "verifiedMetacriticTitle": "Grand Theft Auto: Vice City - The Definitive Edition",
+    "scoreStatus": "unscored",
+    "platformScores": [],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": null
+  },
+  {
+    "id": "completed-7",
+    "shelf": "completed",
+    "title": "Max Payne 3",
+    "steamId": 204100,
+    "year": 2012,
+    "hours": 14.4,
+    "replays": 2,
+    "note": null,
+    "verifiedSteamTitle": "Max Payne 3",
+    "genre": "Action",
+    "metascore": 87,
+    "metacriticUrl": "https://www.metacritic.com/game/max-payne-3/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=204100&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/204100/",
+    "storeLabel": "Steam",
+    "cover": "/games/204100.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/204100/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 87,
+        "url": "https://www.metacritic.com/game/max-payne-3/?platform=pc"
+      },
+      {
+        "platform": "Xbox 360",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/max-payne-3/?platform=xbox-360"
+      },
+      {
+        "platform": "PlayStation 3",
+        "score": 87,
+        "url": "https://www.metacritic.com/game/max-payne-3/?platform=playstation-3"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Max Payne 3",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/max-payne-3/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-8",
+    "shelf": "completed",
+    "title": "Grand Theft Auto IV: The Complete Edition",
+    "steamId": 12210,
+    "year": 2008,
+    "hours": null,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Grand Theft Auto IV: The Complete Edition",
+    "genre": "Action / Adventure",
+    "metascore": 98,
+    "metacriticUrl": "https://www.metacritic.com/game/grand-theft-auto-iv/?platform=playstation-3",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=12210&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/12210/",
+    "storeLabel": "Steam",
+    "cover": "/games/12210.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/12210/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 3",
+        "score": 98,
+        "url": "https://www.metacritic.com/game/grand-theft-auto-iv/?platform=playstation-3"
+      },
+      {
+        "platform": "Xbox 360",
+        "score": 98,
+        "url": "https://www.metacritic.com/game/grand-theft-auto-iv/?platform=xbox-360"
+      },
+      {
+        "platform": "PC",
+        "score": 90,
+        "url": "https://www.metacritic.com/game/grand-theft-auto-iv/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Grand Theft Auto IV",
+    "scorePlatform": "PlayStation 3",
+    "scoreSource": "https://www.metacritic.com/game/grand-theft-auto-iv/?platform=playstation-3",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-9",
+    "shelf": "completed",
+    "title": "Max Payne",
+    "steamId": 12140,
+    "year": 2001,
+    "hours": 7.7,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Max Payne",
+    "genre": "Action",
+    "metascore": 89,
+    "metacriticUrl": "https://www.metacritic.com/game/max-payne/?platform=xbox",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=12140&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/12140/",
+    "storeLabel": "Steam",
+    "cover": "/games/12140.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/12140/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 2",
+        "score": 80,
+        "url": "https://www.metacritic.com/game/max-payne/?platform=playstation-2"
+      },
+      {
+        "platform": "Xbox",
+        "score": 89,
+        "url": "https://www.metacritic.com/game/max-payne/?platform=xbox"
+      },
+      {
+        "platform": "PC",
+        "score": 89,
+        "url": "https://www.metacritic.com/game/max-payne/?platform=pc"
+      },
+      {
+        "platform": "iOS (iPhone/iPad)",
+        "score": 75,
+        "url": "https://www.metacritic.com/game/max-payne/?platform=ios-iphoneipad"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Max Payne",
+    "scorePlatform": "Xbox",
+    "scoreSource": "https://www.metacritic.com/game/max-payne/?platform=xbox",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-10",
+    "shelf": "completed",
+    "title": "Grand Theft Auto: Liberty City Stories",
+    "steamId": null,
+    "year": 2005,
+    "hours": 8,
+    "replays": 1,
+    "note": null,
+    "storeUrl": "https://www.rockstargames.com/games/libertycitystories",
+    "storeLabel": "Rockstar Games",
+    "metascore": 88,
+    "metacriticUrl": "https://www.metacritic.com/game/grand-theft-auto-liberty-city-stories/?platform=psp",
+    "scoreSource": "https://www.metacritic.com/game/grand-theft-auto-liberty-city-stories/?platform=psp",
+    "verifiedMetacriticTitle": "Grand Theft Auto: Liberty City Stories",
+    "scoreStatus": "verified",
+    "genre": "Open-World Action",
+    "cover": "/games/completed-10.jpg",
+    "coverSource": "https://upload.wikimedia.org/wikipedia/en/e/ea/Grand_Theft_Auto_Liberty_City_Stories_box.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "platformScores": [
+      {
+        "platform": "PSP",
+        "score": 88,
+        "url": "https://www.metacritic.com/game/grand-theft-auto-liberty-city-stories/?platform=psp"
+      },
+      {
+        "platform": "PlayStation 2",
+        "score": 78,
+        "url": "https://www.metacritic.com/game/grand-theft-auto-liberty-city-stories/?platform=playstation-2"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PSP"
+  },
+  {
+    "id": "completed-11",
+    "shelf": "completed",
+    "title": "Grand Theft Auto III – The Definitive Edition",
+    "steamId": 1546970,
+    "year": 2021,
+    "hours": 37.6,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Grand Theft Auto III – The Definitive Edition",
+    "genre": "Open-World Action",
+    "metascore": null,
+    "metacriticUrl": "https://www.metacritic.com/game/grand-theft-auto-iii-the-definitive-edition/",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1546970&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1546970/",
+    "storeLabel": "Steam",
+    "cover": "/games/1546970.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1546970/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/grand-theft-auto-iii-the-definitive-edition/",
+    "verifiedMetacriticTitle": "Grand Theft Auto III - The Definitive Edition",
+    "scoreStatus": "unscored",
+    "platformScores": [],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": null
+  },
+  {
+    "id": "completed-12",
+    "shelf": "completed",
+    "title": "Mafia: Definitive Edition",
+    "steamId": 1030840,
+    "year": 2020,
+    "hours": 11.9,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Mafia: Definitive Edition",
+    "genre": "Action / Adventure",
+    "metascore": 79,
+    "metacriticUrl": "https://www.metacritic.com/game/mafia-definitive-edition/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1030840&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1030840/",
+    "storeLabel": "Steam",
+    "cover": "/games/1030840.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1030840/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox One",
+        "score": 79,
+        "url": "https://www.metacritic.com/game/mafia-definitive-edition/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 78,
+        "url": "https://www.metacritic.com/game/mafia-definitive-edition/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 4",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/mafia-definitive-edition/?platform=playstation-4"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Mafia: Definitive Edition",
+    "scorePlatform": "Xbox One",
+    "scoreSource": "https://www.metacritic.com/game/mafia-definitive-edition/?platform=xbox-one",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-13",
+    "shelf": "completed",
+    "title": "Mafia II: Definitive Edition",
+    "steamId": 1030830,
+    "year": 2020,
+    "hours": 15.8,
+    "replays": 2,
+    "note": null,
+    "verifiedSteamTitle": "Mafia II: Definitive Edition",
+    "genre": "Open-World Action",
+    "metascore": 72,
+    "metacriticUrl": "https://www.metacritic.com/game/mafia-ii-definitive-edition/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1030830&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1030830/",
+    "storeLabel": "Steam",
+    "cover": "/games/1030830.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1030830/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/mafia-ii-definitive-edition/?platform=pc",
+    "verifiedMetacriticTitle": "Mafia II: Definitive Edition",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 56,
+        "url": "https://www.metacritic.com/game/mafia-ii-definitive-edition/?platform=playstation-4"
+      },
+      {
+        "platform": "PC",
+        "score": 72,
+        "url": "https://www.metacritic.com/game/mafia-ii-definitive-edition/?platform=pc"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 66,
+        "url": "https://www.metacritic.com/game/mafia-ii-definitive-edition/?platform=xbox-one"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PC"
+  },
+  {
+    "id": "completed-14",
+    "shelf": "completed",
+    "title": "Mafia: The Old Country",
+    "steamId": 1941540,
+    "year": 2025,
+    "hours": 16,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Mafia: The Old Country",
+    "genre": "Linear Action Adventure",
+    "metascore": 73,
+    "metacriticUrl": "https://www.metacritic.com/game/mafia-the-old-country/?platform=playstation-5",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1941540&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1941540/",
+    "storeLabel": "Steam",
+    "cover": "/games/1941540.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1941540/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/mafia-the-old-country/?platform=playstation-5",
+    "verifiedMetacriticTitle": "Mafia: The Old Country",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 5",
+        "score": 73,
+        "url": "https://www.metacritic.com/game/mafia-the-old-country/?platform=playstation-5"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 73,
+        "url": "https://www.metacritic.com/game/mafia-the-old-country/?platform=xbox-series-x"
+      },
+      {
+        "platform": "PC",
+        "score": 73,
+        "url": "https://www.metacritic.com/game/mafia-the-old-country/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PlayStation 5"
+  },
+  {
+    "id": "completed-15",
+    "shelf": "completed",
+    "title": "The Last of Us Part I",
+    "steamId": 1888930,
+    "year": 2023,
+    "hours": 21.2,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "The Last of Us™ Part I",
+    "genre": "Linear Action Adventure",
+    "metascore": 89,
+    "metacriticUrl": "https://www.metacritic.com/game/the-last-of-us-part-i/?platform=playstation-5",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1888930&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1888930/",
+    "storeLabel": "Steam",
+    "cover": "/games/1888930.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1888930/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/the-last-of-us-part-i/?platform=playstation-5",
+    "verifiedMetacriticTitle": "The Last of Us Part I",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 5",
+        "score": 89,
+        "url": "https://www.metacritic.com/game/the-last-of-us-part-i/?platform=playstation-5"
+      },
+      {
+        "platform": "PC",
+        "score": 59,
+        "url": "https://www.metacritic.com/game/the-last-of-us-part-i/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PlayStation 5"
+  },
+  {
+    "id": "completed-16",
+    "shelf": "completed",
+    "title": "The Last of Us Part II Remastered",
+    "steamId": 2531310,
+    "year": 2025,
+    "hours": 30.5,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "The Last of Us™ Part II Remastered",
+    "genre": "Survival",
+    "metascore": 90,
+    "metacriticUrl": "https://www.metacritic.com/game/the-last-of-us-part-ii-remastered/?platform=playstation-5",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2531310&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2531310/",
+    "storeLabel": "Steam",
+    "cover": "/games/2531310.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2531310/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/the-last-of-us-part-ii-remastered/?platform=playstation-5",
+    "verifiedMetacriticTitle": "The Last of Us Part II Remastered",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 5",
+        "score": 90,
+        "url": "https://www.metacritic.com/game/the-last-of-us-part-ii-remastered/?platform=playstation-5"
+      },
+      {
+        "platform": "PC",
+        "score": 90,
+        "url": "https://www.metacritic.com/game/the-last-of-us-part-ii-remastered/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PlayStation 5"
+  },
+  {
+    "id": "completed-17",
+    "shelf": "completed",
+    "title": "UNCHARTED: Legacy of Thieves Collection",
+    "steamId": 1659420,
+    "year": 2016,
+    "hours": 24.5,
+    "replays": 1,
+    "note": "Uncharted 4 + The Lost Legacy",
+    "verifiedSteamTitle": "UNCHARTED™: Legacy of Thieves Collection",
+    "genre": "Compilation",
+    "metascore": 87,
+    "metacriticUrl": "https://www.metacritic.com/game/uncharted-legacy-of-thieves-collection/?platform=playstation-5",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1659420&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1659420/",
+    "storeLabel": "Steam",
+    "cover": "/games/1659420.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1659420/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/uncharted-legacy-of-thieves-collection/?platform=playstation-5",
+    "verifiedMetacriticTitle": "Uncharted: Legacy of Thieves Collection",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 5",
+        "score": 87,
+        "url": "https://www.metacritic.com/game/uncharted-legacy-of-thieves-collection/?platform=playstation-5"
+      },
+      {
+        "platform": "PC",
+        "score": 87,
+        "url": "https://www.metacritic.com/game/uncharted-legacy-of-thieves-collection/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PlayStation 5"
+  },
+  {
+    "id": "completed-18",
+    "shelf": "completed",
+    "title": "Ghost of Tsushima DIRECTOR'S CUT",
+    "steamId": 2215430,
+    "year": 2020,
+    "hours": 76.9,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Ghost of Tsushima DIRECTOR'S CUT",
+    "genre": "Open-World Action",
+    "metascore": 89,
+    "metacriticUrl": "https://www.metacritic.com/game/ghost-of-tsushima-directors-cut/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2215430&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2215430/",
+    "storeLabel": "Steam",
+    "cover": "/games/2215430.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2215430/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/ghost-of-tsushima-directors-cut/?platform=pc",
+    "verifiedMetacriticTitle": "Ghost of Tsushima: Director's Cut",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 5",
+        "score": 87,
+        "url": "https://www.metacritic.com/game/ghost-of-tsushima-directors-cut/?platform=playstation-5"
+      },
+      {
+        "platform": "PC",
+        "score": 89,
+        "url": "https://www.metacritic.com/game/ghost-of-tsushima-directors-cut/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PC"
+  },
+  {
+    "id": "completed-19",
+    "shelf": "completed",
+    "title": "Marvel's Spider-Man Remastered",
+    "steamId": 1817070,
+    "year": 2022,
+    "hours": 26,
+    "replays": 1,
+    "note": "Includes all 3 DLCs",
+    "verifiedSteamTitle": "Marvel’s Spider-Man Remastered",
+    "genre": "Open-World Action",
+    "metascore": 87,
+    "metacriticUrl": "https://www.metacritic.com/game/marvels-spider-man-remastered/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1817070&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1817070/",
+    "storeLabel": "Steam",
+    "cover": "/games/1817070.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1817070/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/marvels-spider-man-remastered/?platform=pc",
+    "verifiedMetacriticTitle": "Marvel's Spider-Man Remastered",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 87,
+        "url": "https://www.metacritic.com/game/marvels-spider-man-remastered/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PC"
+  },
+  {
+    "id": "completed-20",
+    "shelf": "completed",
+    "title": "Hogwarts Legacy",
+    "steamId": 990080,
+    "year": 2023,
+    "hours": 49.4,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Hogwarts Legacy",
+    "genre": "Action / Adventure",
+    "metascore": 85,
+    "metacriticUrl": "https://www.metacritic.com/game/hogwarts-legacy/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=990080&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/990080/",
+    "storeLabel": "Steam",
+    "cover": "/games/990080.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/990080/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 5",
+        "score": 84,
+        "url": "https://www.metacritic.com/game/hogwarts-legacy/?platform=playstation-5"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 85,
+        "url": "https://www.metacritic.com/game/hogwarts-legacy/?platform=xbox-series-x"
+      },
+      {
+        "platform": "PC",
+        "score": 83,
+        "url": "https://www.metacritic.com/game/hogwarts-legacy/?platform=pc"
+      },
+      {
+        "platform": "Nintendo Switch 2",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/hogwarts-legacy/?platform=nintendo-switch-2"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Hogwarts Legacy",
+    "scorePlatform": "Xbox Series X",
+    "scoreSource": "https://www.metacritic.com/game/hogwarts-legacy/?platform=xbox-series-x",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-21",
+    "shelf": "completed",
+    "title": "Assassin's Creed Valhalla",
+    "steamId": 2208920,
+    "year": 2020,
+    "hours": 134.5,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Assassin's Creed Valhalla",
+    "genre": "Open-World Action",
+    "metascore": 84,
+    "metacriticUrl": "https://www.metacritic.com/game/assassins-creed-valhalla/?platform=playstation-5",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2208920&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2208920/",
+    "storeLabel": "Steam",
+    "cover": "/games/2208920.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2208920/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/assassins-creed-valhalla/?platform=playstation-5",
+    "verifiedMetacriticTitle": "Assassin's Creed Valhalla",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 80,
+        "url": "https://www.metacritic.com/game/assassins-creed-valhalla/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/assassins-creed-valhalla/?platform=xbox-one"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 84,
+        "url": "https://www.metacritic.com/game/assassins-creed-valhalla/?platform=playstation-5"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 84,
+        "url": "https://www.metacritic.com/game/assassins-creed-valhalla/?platform=xbox-series-x"
+      },
+      {
+        "platform": "PC",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/assassins-creed-valhalla/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PlayStation 5"
+  },
+  {
+    "id": "completed-22",
+    "shelf": "completed",
+    "title": "Assassin's Creed Mirage",
+    "steamId": 3035570,
+    "year": 2024,
+    "hours": 25,
+    "replays": 1,
+    "note": "Includes DLC",
+    "verifiedSteamTitle": "Assassin's Creed Mirage",
+    "genre": "Open-World Action",
+    "metascore": 77,
+    "metacriticUrl": "https://www.metacritic.com/game/assassins-creed-mirage/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=3035570&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/3035570/",
+    "storeLabel": "Steam",
+    "cover": "/games/3035570.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/3035570/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/assassins-creed-mirage/?platform=xbox-series-x",
+    "verifiedMetacriticTitle": "Assassin's Creed Mirage",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 5",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/assassins-creed-mirage/?platform=playstation-5"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 77,
+        "url": "https://www.metacritic.com/game/assassins-creed-mirage/?platform=xbox-series-x"
+      },
+      {
+        "platform": "PC",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/assassins-creed-mirage/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox Series X"
+  },
+  {
+    "id": "completed-23",
+    "shelf": "completed",
+    "title": "Assassin's Creed Unity",
+    "steamId": 289650,
+    "year": 2014,
+    "hours": 27.2,
+    "replays": 1,
+    "note": "Includes DLC",
+    "verifiedSteamTitle": "Assassin's Creed® Unity",
+    "genre": "Open-World Action",
+    "metascore": 72,
+    "metacriticUrl": "https://www.metacritic.com/game/assassins-creed-unity/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=289650&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/289650/",
+    "storeLabel": "Steam",
+    "cover": "/games/289650.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/289650/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/assassins-creed-unity/?platform=xbox-one",
+    "verifiedMetacriticTitle": "Assassin's Creed Unity",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 70,
+        "url": "https://www.metacritic.com/game/assassins-creed-unity/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 72,
+        "url": "https://www.metacritic.com/game/assassins-creed-unity/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 70,
+        "url": "https://www.metacritic.com/game/assassins-creed-unity/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox One"
+  },
+  {
+    "id": "completed-24",
+    "shelf": "completed",
+    "title": "Assassin's Creed Syndicate",
+    "steamId": 368500,
+    "year": 2015,
+    "hours": 20.5,
+    "replays": 1,
+    "note": "Includes DLC",
+    "verifiedSteamTitle": "Assassin's Creed® Syndicate",
+    "genre": "Action / Adventure",
+    "metascore": 78,
+    "metacriticUrl": "https://www.metacritic.com/game/assassins-creed-syndicate/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=368500&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/368500/",
+    "storeLabel": "Steam",
+    "cover": "/games/368500.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/368500/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/assassins-creed-syndicate/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 78,
+        "url": "https://www.metacritic.com/game/assassins-creed-syndicate/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 74,
+        "url": "https://www.metacritic.com/game/assassins-creed-syndicate/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Assassin's Creed Syndicate",
+    "scorePlatform": "Xbox One",
+    "scoreSource": "https://www.metacritic.com/game/assassins-creed-syndicate/?platform=xbox-one",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-25",
+    "shelf": "completed",
+    "title": "Assassin's Creed Origins",
+    "steamId": 582160,
+    "year": 2017,
+    "hours": 49.1,
+    "replays": 1,
+    "note": "Includes DLC",
+    "verifiedSteamTitle": "Assassin's Creed® Origins",
+    "genre": "Open-World Action",
+    "metascore": 85,
+    "metacriticUrl": "https://www.metacritic.com/game/assassins-creed-origins/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=582160&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/582160/",
+    "storeLabel": "Steam",
+    "cover": "/games/582160.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/582160/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/assassins-creed-origins/?platform=xbox-one",
+    "verifiedMetacriticTitle": "Assassin's Creed Origins",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/assassins-creed-origins/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 85,
+        "url": "https://www.metacritic.com/game/assassins-creed-origins/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 84,
+        "url": "https://www.metacritic.com/game/assassins-creed-origins/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox One"
+  },
+  {
+    "id": "completed-26",
+    "shelf": "completed",
+    "title": "Watch Dogs",
+    "steamId": 243470,
+    "year": 2014,
+    "hours": 24,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Watch_Dogs™",
+    "genre": "Action / Adventure",
+    "metascore": 80,
+    "metacriticUrl": "https://www.metacritic.com/game/watch-dogs/?platform=playstation-4",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=243470&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/243470/",
+    "storeLabel": "Steam",
+    "cover": "/games/243470.png",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/243470/portrait.png",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 77,
+        "url": "https://www.metacritic.com/game/watch-dogs/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 4",
+        "score": 80,
+        "url": "https://www.metacritic.com/game/watch-dogs/?platform=playstation-4"
+      },
+      {
+        "platform": "Wii U",
+        "score": 62,
+        "url": "https://www.metacritic.com/game/watch-dogs/?platform=wii-u"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 78,
+        "url": "https://www.metacritic.com/game/watch-dogs/?platform=xbox-one"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Watch Dogs",
+    "scorePlatform": "PlayStation 4",
+    "scoreSource": "https://www.metacritic.com/game/watch-dogs/?platform=playstation-4",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-27",
+    "shelf": "completed",
+    "title": "STAR WARS Jedi: Fallen Order",
+    "steamId": 1172380,
+    "year": 2019,
+    "hours": 18.4,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "STAR WARS Jedi: Fallen Order™",
+    "genre": "Action / Adventure",
+    "metascore": 81,
+    "metacriticUrl": "https://www.metacritic.com/game/star-wars-jedi-fallen-order/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1172380&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1172380/",
+    "storeLabel": "Steam",
+    "cover": "/games/1172380.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1172380/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 79,
+        "url": "https://www.metacritic.com/game/star-wars-jedi-fallen-order/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/star-wars-jedi-fallen-order/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/star-wars-jedi-fallen-order/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Star Wars Jedi: Fallen Order",
+    "scorePlatform": "Xbox One",
+    "scoreSource": "https://www.metacritic.com/game/star-wars-jedi-fallen-order/?platform=xbox-one",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-28",
+    "shelf": "completed",
+    "title": "Battlefield 1",
+    "steamId": 1238840,
+    "year": 2016,
+    "hours": 10.3,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Battlefield™ 1",
+    "genre": "Tactical FPS",
+    "metascore": 89,
+    "metacriticUrl": "https://www.metacritic.com/game/battlefield-1/?platform=playstation-4",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1238840&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1238840/",
+    "storeLabel": "Steam",
+    "cover": "/games/1238840.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1238840/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/battlefield-1/?platform=playstation-4",
+    "verifiedMetacriticTitle": "Battlefield 1",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 89,
+        "url": "https://www.metacritic.com/game/battlefield-1/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 87,
+        "url": "https://www.metacritic.com/game/battlefield-1/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 88,
+        "url": "https://www.metacritic.com/game/battlefield-1/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PlayStation 4"
+  },
+  {
+    "id": "completed-29",
+    "shelf": "completed",
+    "title": "Quantum Break",
+    "steamId": 474960,
+    "year": 2016,
+    "hours": 10.4,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Quantum Break",
+    "genre": "Action",
+    "metascore": 77,
+    "metacriticUrl": "https://www.metacritic.com/game/quantum-break/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=474960&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/474960/",
+    "storeLabel": "Steam",
+    "cover": "/games/474960.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/474960/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox One",
+        "score": 77,
+        "url": "https://www.metacritic.com/game/quantum-break/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 66,
+        "url": "https://www.metacritic.com/game/quantum-break/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Quantum Break",
+    "scorePlatform": "Xbox One",
+    "scoreSource": "https://www.metacritic.com/game/quantum-break/?platform=xbox-one",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-30",
+    "shelf": "completed",
+    "title": "Spec Ops: The Line",
+    "steamId": 50300,
+    "year": 2012,
+    "hours": 7.6,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Spec Ops: The Line",
+    "genre": "Action / Adventure",
+    "metascore": 77,
+    "metacriticUrl": "https://www.metacritic.com/game/spec-ops-the-line/?platform=playstation-3",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=50300&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/50300/",
+    "storeLabel": "Steam",
+    "cover": "/games/50300.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/50300/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox 360",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/spec-ops-the-line/?platform=xbox-360"
+      },
+      {
+        "platform": "PlayStation 3",
+        "score": 77,
+        "url": "https://www.metacritic.com/game/spec-ops-the-line/?platform=playstation-3"
+      },
+      {
+        "platform": "PC",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/spec-ops-the-line/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Spec Ops: The Line",
+    "scorePlatform": "PlayStation 3",
+    "scoreSource": "https://www.metacritic.com/game/spec-ops-the-line/?platform=playstation-3",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-31",
+    "shelf": "completed",
+    "title": "Tomb Raider",
+    "steamId": 203160,
+    "year": 2013,
+    "hours": 10,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Tomb Raider Game of the Year",
+    "genre": "Action / Adventure",
+    "metascore": 87,
+    "metacriticUrl": "https://www.metacritic.com/game/tomb-raider/?platform=playstation-3",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=203160&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/203160/",
+    "storeLabel": "Steam",
+    "cover": "/games/203160.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/203160/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox 360",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/tomb-raider/?platform=xbox-360"
+      },
+      {
+        "platform": "PlayStation 3",
+        "score": 87,
+        "url": "https://www.metacritic.com/game/tomb-raider/?platform=playstation-3"
+      },
+      {
+        "platform": "PC",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/tomb-raider/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Tomb Raider",
+    "scorePlatform": "PlayStation 3",
+    "scoreSource": "https://www.metacritic.com/game/tomb-raider/?platform=playstation-3",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-32",
+    "shelf": "completed",
+    "title": "Rise of the Tomb Raider",
+    "steamId": 391220,
+    "year": 2016,
+    "hours": 15,
+    "replays": 1,
+    "note": "Includes Blood Ties",
+    "verifiedSteamTitle": "Rise of the Tomb Raider™",
+    "genre": "Action / Adventure",
+    "metascore": 86,
+    "metacriticUrl": "https://www.metacritic.com/game/rise-of-the-tomb-raider/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=391220&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/391220/",
+    "storeLabel": "Steam",
+    "cover": "/games/391220.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/391220/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox One",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/rise-of-the-tomb-raider/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/rise-of-the-tomb-raider/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Rise of the Tomb Raider",
+    "scorePlatform": "Xbox One",
+    "scoreSource": "https://www.metacritic.com/game/rise-of-the-tomb-raider/?platform=xbox-one",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-33",
+    "shelf": "completed",
+    "title": "A Plague Tale: Innocence",
+    "steamId": 752590,
+    "year": 2019,
+    "hours": 15,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "A Plague Tale: Innocence",
+    "genre": "Action / Adventure",
+    "metascore": 83,
+    "metacriticUrl": "https://www.metacritic.com/game/a-plague-tale-innocence/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=752590&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/752590/",
+    "storeLabel": "Steam",
+    "cover": "/games/752590.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/752590/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/a-plague-tale-innocence/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 83,
+        "url": "https://www.metacritic.com/game/a-plague-tale-innocence/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/a-plague-tale-innocence/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/a-plague-tale-innocence/?platform=playstation-5"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "A Plague Tale: Innocence",
+    "scorePlatform": "Xbox One",
+    "scoreSource": "https://www.metacritic.com/game/a-plague-tale-innocence/?platform=xbox-one",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-34",
+    "shelf": "completed",
+    "title": "Call of Duty: Black Ops 6",
+    "steamId": 2933620,
+    "year": 2024,
+    "hours": 7.4,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Call of Duty®",
+    "genre": "Tactical FPS",
+    "metascore": 83,
+    "metacriticUrl": "https://www.metacritic.com/game/call-of-duty-black-ops-6/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2933620&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2933620/",
+    "storeLabel": "Steam",
+    "cover": "/games/completed-34.png",
+    "coverSource": "https://upload.wikimedia.org/wikipedia/en/c/c9/Call_of_Duty_Black_Ops_6_Key_Art.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "scoreSource": "https://www.metacritic.com/game/call-of-duty-black-ops-6/?platform=xbox-series-x",
+    "verifiedMetacriticTitle": "Call of Duty: Black Ops 6",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "Xbox Series X",
+        "score": 83,
+        "url": "https://www.metacritic.com/game/call-of-duty-black-ops-6/?platform=xbox-series-x"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/call-of-duty-black-ops-6/?platform=playstation-5"
+      },
+      {
+        "platform": "PC",
+        "score": 83,
+        "url": "https://www.metacritic.com/game/call-of-duty-black-ops-6/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox Series X"
+  },
+  {
+    "id": "completed-35",
+    "shelf": "completed",
+    "title": "Sniper Elite 3",
+    "steamId": 238090,
+    "year": 2014,
+    "hours": 16,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Sniper Elite 3",
+    "genre": "Tactical Third Person Shooter",
+    "metascore": 71,
+    "metacriticUrl": "https://www.metacritic.com/game/sniper-elite-iii/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=238090&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/238090/",
+    "storeLabel": "Steam",
+    "cover": "/games/238090.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/238090/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/sniper-elite-iii/?platform=pc",
+    "verifiedMetacriticTitle": "Sniper Elite III",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 67,
+        "url": "https://www.metacritic.com/game/sniper-elite-iii/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 63,
+        "url": "https://www.metacritic.com/game/sniper-elite-iii/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 71,
+        "url": "https://www.metacritic.com/game/sniper-elite-iii/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PC"
+  },
+  {
+    "id": "completed-36",
+    "shelf": "completed",
+    "title": "Batman: Arkham Asylum GOTY Edition",
+    "steamId": 35140,
+    "year": 2010,
+    "hours": 12.5,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Batman: Arkham Asylum Game of the Year Edition",
+    "genre": "Action / Adventure",
+    "metascore": 92,
+    "metacriticUrl": "https://www.metacritic.com/game/batman-arkham-asylum/?platform=xbox-360",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=35140&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/35140/",
+    "storeLabel": "Steam",
+    "cover": "/games/35140.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/35140/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox 360",
+        "score": 92,
+        "url": "https://www.metacritic.com/game/batman-arkham-asylum/?platform=xbox-360"
+      },
+      {
+        "platform": "PlayStation 3",
+        "score": 91,
+        "url": "https://www.metacritic.com/game/batman-arkham-asylum/?platform=playstation-3"
+      },
+      {
+        "platform": "PC",
+        "score": 91,
+        "url": "https://www.metacritic.com/game/batman-arkham-asylum/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Batman: Arkham Asylum",
+    "scorePlatform": "Xbox 360",
+    "scoreSource": "https://www.metacritic.com/game/batman-arkham-asylum/?platform=xbox-360",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-37",
+    "shelf": "completed",
+    "title": "Portal",
+    "steamId": 400,
+    "year": 2007,
+    "hours": 3.1,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Portal",
+    "genre": "Action",
+    "metascore": 90,
+    "metacriticUrl": "https://www.metacritic.com/game/portal/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=400&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/400/",
+    "storeLabel": "Steam",
+    "cover": "/games/400.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/400/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 90,
+        "url": "https://www.metacritic.com/game/portal/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Portal",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/portal/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-38",
+    "shelf": "completed",
+    "title": "Portal 2",
+    "steamId": 620,
+    "year": 2011,
+    "hours": 7.8,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Portal 2",
+    "genre": "Action / Adventure",
+    "metascore": 95,
+    "metacriticUrl": "https://www.metacritic.com/game/portal-2/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=620&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/620/",
+    "storeLabel": "Steam",
+    "cover": "/games/620.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/620/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 95,
+        "url": "https://www.metacritic.com/game/portal-2/?platform=pc"
+      },
+      {
+        "platform": "Xbox 360",
+        "score": 95,
+        "url": "https://www.metacritic.com/game/portal-2/?platform=xbox-360"
+      },
+      {
+        "platform": "PlayStation 3",
+        "score": 95,
+        "url": "https://www.metacritic.com/game/portal-2/?platform=playstation-3"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Portal 2",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/portal-2/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-39",
+    "shelf": "completed",
+    "title": "First Date: Late To Date",
+    "steamId": 2080640,
+    "year": 2022,
+    "hours": 0.7,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "First Date : Late To Date",
+    "genre": "Adventure",
+    "metascore": null,
+    "metacriticUrl": "https://www.metacritic.com/game/first-date-late-to-date/",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2080640&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2080640/",
+    "storeLabel": "Steam",
+    "cover": "/games/2080640.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2080640/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/first-date-late-to-date/",
+    "verifiedMetacriticTitle": "First Date : Late To Date",
+    "scoreStatus": "unscored",
+    "platformScores": [],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": null
+  },
+  {
+    "id": "completed-40",
+    "shelf": "completed",
+    "title": "Aragami",
+    "steamId": 280160,
+    "year": 2016,
+    "hours": 4.5,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Aragami",
+    "genre": "Action / Adventure",
+    "metascore": 71,
+    "metacriticUrl": "https://www.metacritic.com/game/aragami/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=280160&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/280160/",
+    "storeLabel": "Steam",
+    "cover": "/games/280160.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/280160/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 71,
+        "url": "https://www.metacritic.com/game/aragami/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 4",
+        "score": 71,
+        "url": "https://www.metacritic.com/game/aragami/?platform=playstation-4"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Aragami",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/aragami/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-41",
+    "shelf": "completed",
+    "title": "Anomaly Agent",
+    "steamId": 2378620,
+    "year": 2024,
+    "hours": 7,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "Anomaly Agent",
+    "genre": "Action / Adventure",
+    "metascore": 84,
+    "metacriticUrl": "https://www.metacritic.com/game/anomaly-agent/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2378620&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2378620/",
+    "storeLabel": "Steam",
+    "cover": "/games/2378620.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2378620/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 84,
+        "url": "https://www.metacritic.com/game/anomaly-agent/?platform=pc"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 80,
+        "url": "https://www.metacritic.com/game/anomaly-agent/?platform=xbox-one"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Anomaly Agent",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/anomaly-agent/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-42",
+    "shelf": "completed",
+    "title": "HITMAN 2",
+    "steamId": 863550,
+    "year": 2018,
+    "hours": 11.2,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "HITMAN™ 2",
+    "genre": "Action",
+    "metascore": 84,
+    "metacriticUrl": "https://www.metacritic.com/game/hitman-2/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=863550&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/863550/",
+    "storeLabel": "Steam",
+    "cover": "/games/863550.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/863550/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/hitman-2/?platform=playstation-4"
+      },
+      {
+        "platform": "PC",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/hitman-2/?platform=pc"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 84,
+        "url": "https://www.metacritic.com/game/hitman-2/?platform=xbox-one"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Hitman 2",
+    "scorePlatform": "Xbox One",
+    "scoreSource": "https://www.metacritic.com/game/hitman-2/?platform=xbox-one",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "completed-43",
+    "shelf": "completed",
+    "title": "007 First Light",
+    "steamId": 3768760,
+    "year": 2026,
+    "hours": 27.5,
+    "replays": 1,
+    "note": null,
+    "verifiedSteamTitle": "007 First Light",
+    "genre": "Action Adventure",
+    "metascore": 88,
+    "metacriticUrl": "https://www.metacritic.com/game/007-first-light/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=3768760&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/3768760/",
+    "storeLabel": "Steam",
+    "scoreSource": "https://www.metacritic.com/game/007-first-light/?platform=xbox-series-x",
+    "verifiedMetacriticTitle": "007 First Light",
+    "scoreStatus": "verified",
+    "cover": "/games/completed-43.jpg",
+    "coverSource": "https://upload.wikimedia.org/wikipedia/en/2/2b/007_First_Light_%282026%29_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "platformScores": [
+      {
+        "platform": "Xbox Series X",
+        "score": 88,
+        "url": "https://www.metacritic.com/game/007-first-light/?platform=xbox-series-x"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 87,
+        "url": "https://www.metacritic.com/game/007-first-light/?platform=playstation-5"
+      },
+      {
+        "platform": "PC",
+        "score": 84,
+        "url": "https://www.metacritic.com/game/007-first-light/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox Series X"
+  },
+  {
+    "id": "backlog-1",
+    "shelf": "backlog",
+    "title": "A Plague Tale: Requiem",
+    "steamId": 1182900,
+    "year": 2023,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "A Plague Tale: Requiem",
+    "genre": "Action / Adventure",
+    "metascore": 85,
+    "metacriticUrl": "https://www.metacritic.com/game/a-plague-tale-requiem/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1182900&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1182900/",
+    "storeLabel": "Steam",
+    "cover": "/games/1182900.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1182900/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox Series X",
+        "score": 85,
+        "url": "https://www.metacritic.com/game/a-plague-tale-requiem/?platform=xbox-series-x"
+      },
+      {
+        "platform": "PC",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/a-plague-tale-requiem/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/a-plague-tale-requiem/?platform=playstation-5"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/a-plague-tale-requiem/?platform=nintendo-switch"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "A Plague Tale: Requiem",
+    "scorePlatform": "Xbox Series X",
+    "scoreSource": "https://www.metacritic.com/game/a-plague-tale-requiem/?platform=xbox-series-x",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-2",
+    "shelf": "backlog",
+    "title": "STAR WARS Jedi: Survivor",
+    "steamId": 1774580,
+    "year": 2023,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "STAR WARS Jedi: Survivor™",
+    "genre": "Open-World Action",
+    "metascore": 86,
+    "metacriticUrl": "https://www.metacritic.com/game/star-wars-jedi-survivor/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1774580&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1774580/",
+    "storeLabel": "Steam",
+    "cover": "/games/1774580.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1774580/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/star-wars-jedi-survivor/?platform=xbox-series-x",
+    "verifiedMetacriticTitle": "Star Wars Jedi: Survivor",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 78,
+        "url": "https://www.metacritic.com/game/star-wars-jedi-survivor/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 85,
+        "url": "https://www.metacritic.com/game/star-wars-jedi-survivor/?platform=playstation-5"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/star-wars-jedi-survivor/?platform=xbox-series-x"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox Series X"
+  },
+  {
+    "id": "backlog-3",
+    "shelf": "backlog",
+    "title": "God of War",
+    "steamId": 1593500,
+    "year": 2018,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "God of War",
+    "genre": "Action / Adventure",
+    "metascore": 94,
+    "metacriticUrl": "https://www.metacritic.com/game/god-of-war/?platform=playstation-4",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1593500&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1593500/",
+    "storeLabel": "Steam",
+    "cover": "/games/1593500.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 94,
+        "url": "https://www.metacritic.com/game/god-of-war/?platform=playstation-4"
+      },
+      {
+        "platform": "PC",
+        "score": 93,
+        "url": "https://www.metacritic.com/game/god-of-war/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "God of War",
+    "scorePlatform": "PlayStation 4",
+    "scoreSource": "https://www.metacritic.com/game/god-of-war/?platform=playstation-4",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-4",
+    "shelf": "backlog",
+    "title": "Sleeping Dogs",
+    "steamId": 202170,
+    "year": 2012,
+    "hours": null,
+    "replays": null,
+    "note": "Includes 2 DLCs",
+    "verifiedSteamTitle": "Sleeping Dogs",
+    "genre": "Action / Adventure",
+    "metascore": 83,
+    "metacriticUrl": "https://www.metacritic.com/game/sleeping-dogs/?platform=playstation-3",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=202170&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/202170/",
+    "storeLabel": "Steam",
+    "cover": "/games/202170.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/202170/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox 360",
+        "score": 80,
+        "url": "https://www.metacritic.com/game/sleeping-dogs/?platform=xbox-360"
+      },
+      {
+        "platform": "PlayStation 3",
+        "score": 83,
+        "url": "https://www.metacritic.com/game/sleeping-dogs/?platform=playstation-3"
+      },
+      {
+        "platform": "PC",
+        "score": 80,
+        "url": "https://www.metacritic.com/game/sleeping-dogs/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Sleeping Dogs",
+    "scorePlatform": "PlayStation 3",
+    "scoreSource": "https://www.metacritic.com/game/sleeping-dogs/?platform=playstation-3",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-5",
+    "shelf": "backlog",
+    "title": "Assassin's Creed IV Black Flag",
+    "steamId": 242050,
+    "year": 2013,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Assassin’s Creed® IV Black Flag™",
+    "genre": "Open-World Action",
+    "metascore": 88,
+    "metacriticUrl": "https://www.metacritic.com/game/assassins-creed-iv-black-flag/?platform=playstation-3",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=242050&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/242050/",
+    "storeLabel": "Steam",
+    "cover": "/games/242050.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/242050/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/assassins-creed-iv-black-flag/?platform=playstation-3",
+    "verifiedMetacriticTitle": "Assassin's Creed IV: Black Flag",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 83,
+        "url": "https://www.metacritic.com/game/assassins-creed-iv-black-flag/?platform=playstation-4"
+      },
+      {
+        "platform": "PC",
+        "score": 84,
+        "url": "https://www.metacritic.com/game/assassins-creed-iv-black-flag/?platform=pc"
+      },
+      {
+        "platform": "Wii U",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/assassins-creed-iv-black-flag/?platform=wii-u"
+      },
+      {
+        "platform": "Xbox 360",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/assassins-creed-iv-black-flag/?platform=xbox-360"
+      },
+      {
+        "platform": "PlayStation 3",
+        "score": 88,
+        "url": "https://www.metacritic.com/game/assassins-creed-iv-black-flag/?platform=playstation-3"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PlayStation 3"
+  },
+  {
+    "id": "backlog-6",
+    "shelf": "backlog",
+    "title": "Mafia III: Definitive Edition",
+    "steamId": 360430,
+    "year": 2020,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Mafia III: Definitive Edition",
+    "genre": "Open-World Action",
+    "metascore": null,
+    "metacriticUrl": "https://www.metacritic.com/game/mafia-iii-definitive-edition/",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=360430&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/360430/",
+    "storeLabel": "Steam",
+    "cover": "/games/360430.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/360430/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/mafia-iii-definitive-edition/",
+    "verifiedMetacriticTitle": "Mafia III: Definitive Edition",
+    "scoreStatus": "unscored",
+    "platformScores": [],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": null
+  },
+  {
+    "id": "backlog-7",
+    "shelf": "backlog",
+    "title": "Battlefield V",
+    "steamId": 1238810,
+    "year": 2018,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Battlefield™ V",
+    "genre": "Tactical FPS",
+    "metascore": 81,
+    "metacriticUrl": "https://www.metacritic.com/game/battlefield-v/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1238810&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1238810/",
+    "storeLabel": "Steam",
+    "cover": "/games/1238810.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1238810/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/battlefield-v/?platform=pc",
+    "verifiedMetacriticTitle": "Battlefield V",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 73,
+        "url": "https://www.metacritic.com/game/battlefield-v/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 78,
+        "url": "https://www.metacritic.com/game/battlefield-v/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/battlefield-v/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PC"
+  },
+  {
+    "id": "backlog-8",
+    "shelf": "backlog",
+    "title": "Shadow of the Tomb Raider: Definitive Edition",
+    "steamId": 750920,
+    "year": 2018,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Shadow of the Tomb Raider: Definitive Edition",
+    "genre": "Action / Adventure",
+    "metascore": 82,
+    "metacriticUrl": "https://www.metacritic.com/game/shadow-of-the-tomb-raider/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=750920&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/750920/",
+    "storeLabel": "Steam",
+    "cover": "/games/750920.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/750920/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 75,
+        "url": "https://www.metacritic.com/game/shadow-of-the-tomb-raider/?platform=playstation-4"
+      },
+      {
+        "platform": "PC",
+        "score": 77,
+        "url": "https://www.metacritic.com/game/shadow-of-the-tomb-raider/?platform=pc"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/shadow-of-the-tomb-raider/?platform=xbox-one"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Shadow of the Tomb Raider",
+    "scorePlatform": "Xbox One",
+    "scoreSource": "https://www.metacritic.com/game/shadow-of-the-tomb-raider/?platform=xbox-one",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-9",
+    "shelf": "backlog",
+    "title": "Batman: Arkham City GOTY",
+    "steamId": 200260,
+    "year": 2012,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Batman: Arkham City - Game of the Year Edition",
+    "genre": "Action / Adventure",
+    "metascore": 96,
+    "metacriticUrl": "https://www.metacritic.com/game/batman-arkham-city/?platform=playstation-3",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=200260&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/200260/",
+    "storeLabel": "Steam",
+    "cover": "/games/200260.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/200260/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox 360",
+        "score": 94,
+        "url": "https://www.metacritic.com/game/batman-arkham-city/?platform=xbox-360"
+      },
+      {
+        "platform": "PlayStation 3",
+        "score": 96,
+        "url": "https://www.metacritic.com/game/batman-arkham-city/?platform=playstation-3"
+      },
+      {
+        "platform": "PC",
+        "score": 91,
+        "url": "https://www.metacritic.com/game/batman-arkham-city/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Batman: Arkham City",
+    "scorePlatform": "PlayStation 3",
+    "scoreSource": "https://www.metacritic.com/game/batman-arkham-city/?platform=playstation-3",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-10",
+    "shelf": "backlog",
+    "title": "The Witcher 3: Wild Hunt",
+    "steamId": 292030,
+    "year": 2015,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "The Witcher 3: Wild Hunt — Remastered",
+    "genre": "RPG",
+    "metascore": 93,
+    "metacriticUrl": "https://www.metacritic.com/game/the-witcher-3-wild-hunt/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=292030&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/292030/",
+    "storeLabel": "Steam",
+    "cover": "/games/292030.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/292030/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 93,
+        "url": "https://www.metacritic.com/game/the-witcher-3-wild-hunt/?platform=pc"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 91,
+        "url": "https://www.metacritic.com/game/the-witcher-3-wild-hunt/?platform=xbox-one"
+      },
+      {
+        "platform": "PlayStation 4",
+        "score": 92,
+        "url": "https://www.metacritic.com/game/the-witcher-3-wild-hunt/?platform=playstation-4"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "The Witcher 3: Wild Hunt",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/the-witcher-3-wild-hunt/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-11",
+    "shelf": "backlog",
+    "title": "Cyberpunk 2077",
+    "steamId": 1091500,
+    "year": 2020,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Cyberpunk 2077",
+    "genre": "RPG",
+    "metascore": 87,
+    "metacriticUrl": "https://www.metacritic.com/game/cyberpunk-2077/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1091500&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1091500/",
+    "storeLabel": "Steam",
+    "cover": "/games/1091500.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/cyberpunk-2077/?platform=pc"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 61,
+        "url": "https://www.metacritic.com/game/cyberpunk-2077/?platform=xbox-one"
+      },
+      {
+        "platform": "PlayStation 4",
+        "score": 57,
+        "url": "https://www.metacritic.com/game/cyberpunk-2077/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 87,
+        "url": "https://www.metacritic.com/game/cyberpunk-2077/?platform=xbox-series-x"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 75,
+        "url": "https://www.metacritic.com/game/cyberpunk-2077/?platform=playstation-5"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Cyberpunk 2077",
+    "scorePlatform": "Xbox Series X",
+    "scoreSource": "https://www.metacritic.com/game/cyberpunk-2077/?platform=xbox-series-x",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-12",
+    "shelf": "backlog",
+    "title": "Batman: Arkham Origins",
+    "steamId": 209000,
+    "year": 2013,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Batman™: Arkham Origins",
+    "genre": "Action / Adventure",
+    "metascore": 76,
+    "metacriticUrl": "https://www.metacritic.com/game/batman-arkham-origins/?platform=playstation-3",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=209000&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/209000/",
+    "storeLabel": "Steam",
+    "cover": "/games/209000.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/209000/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox 360",
+        "score": 74,
+        "url": "https://www.metacritic.com/game/batman-arkham-origins/?platform=xbox-360"
+      },
+      {
+        "platform": "PlayStation 3",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/batman-arkham-origins/?platform=playstation-3"
+      },
+      {
+        "platform": "PC",
+        "score": 74,
+        "url": "https://www.metacritic.com/game/batman-arkham-origins/?platform=pc"
+      },
+      {
+        "platform": "Wii U",
+        "score": 68,
+        "url": "https://www.metacritic.com/game/batman-arkham-origins/?platform=wii-u"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Batman: Arkham Origins",
+    "scorePlatform": "PlayStation 3",
+    "scoreSource": "https://www.metacritic.com/game/batman-arkham-origins/?platform=playstation-3",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-13",
+    "shelf": "backlog",
+    "title": "Batman: Arkham Knight",
+    "steamId": 208650,
+    "year": 2015,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Batman™: Arkham Knight",
+    "genre": "Open-World Action",
+    "metascore": 87,
+    "metacriticUrl": "https://www.metacritic.com/game/batman-arkham-knight/?platform=playstation-4",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=208650&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/208650/",
+    "storeLabel": "Steam",
+    "cover": "/games/208650.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/208650/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/batman-arkham-knight/?platform=playstation-4",
+    "verifiedMetacriticTitle": "Batman: Arkham Knight",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "Xbox One",
+        "score": 85,
+        "url": "https://www.metacritic.com/game/batman-arkham-knight/?platform=xbox-one"
+      },
+      {
+        "platform": "PlayStation 4",
+        "score": 87,
+        "url": "https://www.metacritic.com/game/batman-arkham-knight/?platform=playstation-4"
+      },
+      {
+        "platform": "PC",
+        "score": 70,
+        "url": "https://www.metacritic.com/game/batman-arkham-knight/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PlayStation 4"
+  },
+  {
+    "id": "backlog-14",
+    "shelf": "backlog",
+    "title": "Assassin's Creed III Remastered",
+    "steamId": 911400,
+    "year": 2019,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Assassin's Creed® III Remastered",
+    "genre": "Open-World Action",
+    "metascore": 77,
+    "metacriticUrl": "https://www.metacritic.com/game/assassins-creed-iii-remastered/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=911400&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/911400/",
+    "storeLabel": "Steam",
+    "cover": "/games/911400.png",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/911400/portrait.png",
+    "scoreSource": "https://www.metacritic.com/game/assassins-creed-iii-remastered/?platform=xbox-one",
+    "verifiedMetacriticTitle": "Assassin's Creed III Remastered",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 72,
+        "url": "https://www.metacritic.com/game/assassins-creed-iii-remastered/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 77,
+        "url": "https://www.metacritic.com/game/assassins-creed-iii-remastered/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 75,
+        "url": "https://www.metacritic.com/game/assassins-creed-iii-remastered/?platform=pc"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "score": 60,
+        "url": "https://www.metacritic.com/game/assassins-creed-iii-remastered/?platform=nintendo-switch"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox One"
+  },
+  {
+    "id": "backlog-15",
+    "shelf": "backlog",
+    "title": "Assassin's Creed Odyssey",
+    "steamId": 812140,
+    "year": 2018,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Assassin's Creed® Odyssey",
+    "genre": "Open-World Action",
+    "metascore": 87,
+    "metacriticUrl": "https://www.metacritic.com/game/assassins-creed-odyssey/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=812140&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/812140/",
+    "storeLabel": "Steam",
+    "cover": "/games/812140.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/812140/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/assassins-creed-odyssey/?platform=xbox-one",
+    "verifiedMetacriticTitle": "Assassin's Creed Odyssey",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 83,
+        "url": "https://www.metacritic.com/game/assassins-creed-odyssey/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 87,
+        "url": "https://www.metacritic.com/game/assassins-creed-odyssey/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/assassins-creed-odyssey/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox One"
+  },
+  {
+    "id": "backlog-16",
+    "shelf": "backlog",
+    "title": "Assassin's Creed Rogue",
+    "steamId": 311560,
+    "year": 2015,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Assassin’s Creed® Rogue",
+    "genre": "Action / Adventure",
+    "metascore": 74,
+    "metacriticUrl": "https://www.metacritic.com/game/assassins-creed-rogue/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=311560&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/311560/",
+    "storeLabel": "Steam",
+    "cover": "/games/311560.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/311560/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 3",
+        "score": 72,
+        "url": "https://www.metacritic.com/game/assassins-creed-rogue/?platform=playstation-3"
+      },
+      {
+        "platform": "Xbox 360",
+        "score": 72,
+        "url": "https://www.metacritic.com/game/assassins-creed-rogue/?platform=xbox-360"
+      },
+      {
+        "platform": "PC",
+        "score": 74,
+        "url": "https://www.metacritic.com/game/assassins-creed-rogue/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Assassin's Creed Rogue",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/assassins-creed-rogue/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-17",
+    "shelf": "backlog",
+    "title": "Watch Dogs: Legion",
+    "steamId": 2239550,
+    "year": 2020,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Watch Dogs®: Legion",
+    "genre": "Open-World Action",
+    "metascore": 76,
+    "metacriticUrl": "https://www.metacritic.com/game/watch-dogs-legion/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2239550&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2239550/",
+    "storeLabel": "Steam",
+    "cover": "/games/2239550.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2239550/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/watch-dogs-legion/?platform=xbox-one",
+    "verifiedMetacriticTitle": "Watch Dogs: Legion",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 70,
+        "url": "https://www.metacritic.com/game/watch-dogs-legion/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/watch-dogs-legion/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 72,
+        "url": "https://www.metacritic.com/game/watch-dogs-legion/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 66,
+        "url": "https://www.metacritic.com/game/watch-dogs-legion/?platform=playstation-5"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 74,
+        "url": "https://www.metacritic.com/game/watch-dogs-legion/?platform=xbox-series-x"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox One"
+  },
+  {
+    "id": "backlog-18",
+    "shelf": "backlog",
+    "title": "Watch Dogs 2",
+    "steamId": 447040,
+    "year": 2016,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Watch_Dogs® 2",
+    "genre": "Open-World Action",
+    "metascore": 82,
+    "metacriticUrl": "https://www.metacritic.com/game/watch-dogs-2/?platform=playstation-4",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=447040&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/447040/",
+    "storeLabel": "Steam",
+    "cover": "/games/447040.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/447040/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/watch-dogs-2/?platform=playstation-4",
+    "verifiedMetacriticTitle": "Watch Dogs 2",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/watch-dogs-2/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/watch-dogs-2/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 75,
+        "url": "https://www.metacritic.com/game/watch-dogs-2/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PlayStation 4"
+  },
+  {
+    "id": "backlog-19",
+    "shelf": "backlog",
+    "title": "Sniper Elite 4",
+    "steamId": 312660,
+    "year": 2017,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Sniper Elite 4",
+    "genre": "Action / Adventure",
+    "metascore": 81,
+    "metacriticUrl": "https://www.metacritic.com/game/sniper-elite-4/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=312660&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/312660/",
+    "storeLabel": "Steam",
+    "cover": "/games/312660.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/312660/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 77,
+        "url": "https://www.metacritic.com/game/sniper-elite-4/?platform=playstation-4"
+      },
+      {
+        "platform": "PC",
+        "score": 78,
+        "url": "https://www.metacritic.com/game/sniper-elite-4/?platform=pc"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/sniper-elite-4/?platform=xbox-one"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "score": 79,
+        "url": "https://www.metacritic.com/game/sniper-elite-4/?platform=nintendo-switch"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Sniper Elite 4",
+    "scorePlatform": "Xbox One",
+    "scoreSource": "https://www.metacritic.com/game/sniper-elite-4/?platform=xbox-one",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-20",
+    "shelf": "backlog",
+    "title": "Tom Clancy's Splinter Cell Blacklist",
+    "steamId": 235600,
+    "year": 2013,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Tom Clancy’s Splinter Cell Blacklist",
+    "genre": "Action Adventure",
+    "metascore": 84,
+    "metacriticUrl": "https://www.metacritic.com/game/tom-clancys-splinter-cell-blacklist/?platform=playstation-3",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=235600&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/235600/",
+    "storeLabel": "Steam",
+    "cover": "/games/235600.png",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/235600/portrait.png",
+    "scoreSource": "https://www.metacritic.com/game/tom-clancys-splinter-cell-blacklist/?platform=playstation-3",
+    "verifiedMetacriticTitle": "Tom Clancy's Splinter Cell: Blacklist",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "Xbox 360",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/tom-clancys-splinter-cell-blacklist/?platform=xbox-360"
+      },
+      {
+        "platform": "PlayStation 3",
+        "score": 84,
+        "url": "https://www.metacritic.com/game/tom-clancys-splinter-cell-blacklist/?platform=playstation-3"
+      },
+      {
+        "platform": "PC",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/tom-clancys-splinter-cell-blacklist/?platform=pc"
+      },
+      {
+        "platform": "Wii U",
+        "score": 75,
+        "url": "https://www.metacritic.com/game/tom-clancys-splinter-cell-blacklist/?platform=wii-u"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PlayStation 3"
+  },
+  {
+    "id": "backlog-21",
+    "shelf": "backlog",
+    "title": "LEGO Star Wars: The Skywalker Saga",
+    "steamId": 920210,
+    "year": 2022,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "LEGO® Star Wars™: The Skywalker Saga",
+    "genre": "Action / Adventure",
+    "metascore": 82,
+    "metacriticUrl": "https://www.metacritic.com/game/lego-star-wars-the-skywalker-saga/?platform=nintendo-switch",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=920210&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/920210/",
+    "storeLabel": "Steam",
+    "cover": "/games/920210.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/920210/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox One",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/lego-star-wars-the-skywalker-saga/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 78,
+        "url": "https://www.metacritic.com/game/lego-star-wars-the-skywalker-saga/?platform=pc"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/lego-star-wars-the-skywalker-saga/?platform=nintendo-switch"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/lego-star-wars-the-skywalker-saga/?platform=playstation-5"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/lego-star-wars-the-skywalker-saga/?platform=xbox-series-x"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "LEGO Star Wars: The Skywalker Saga",
+    "scorePlatform": "Nintendo Switch",
+    "scoreSource": "https://www.metacritic.com/game/lego-star-wars-the-skywalker-saga/?platform=nintendo-switch",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-22",
+    "shelf": "backlog",
+    "title": "Marvel's Guardians of the Galaxy",
+    "steamId": 1088850,
+    "year": 2021,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Marvel's Guardians of the Galaxy",
+    "genre": "Action / Adventure",
+    "metascore": 84,
+    "metacriticUrl": "https://www.metacritic.com/game/marvels-guardians-of-the-galaxy/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1088850&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1088850/",
+    "storeLabel": "Steam",
+    "cover": "/games/1088850.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1088850/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 5",
+        "score": 80,
+        "url": "https://www.metacritic.com/game/marvels-guardians-of-the-galaxy/?platform=playstation-5"
+      },
+      {
+        "platform": "PC",
+        "score": 78,
+        "url": "https://www.metacritic.com/game/marvels-guardians-of-the-galaxy/?platform=pc"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 84,
+        "url": "https://www.metacritic.com/game/marvels-guardians-of-the-galaxy/?platform=xbox-series-x"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "score": 58,
+        "url": "https://www.metacritic.com/game/marvels-guardians-of-the-galaxy/?platform=nintendo-switch"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Marvel's Guardians of the Galaxy",
+    "scorePlatform": "Xbox Series X",
+    "scoreSource": "https://www.metacritic.com/game/marvels-guardians-of-the-galaxy/?platform=xbox-series-x",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-23",
+    "shelf": "backlog",
+    "title": "Ryse: Son of Rome",
+    "steamId": 302510,
+    "year": 2014,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Ryse: Son of Rome",
+    "genre": "Action",
+    "metascore": 61,
+    "metacriticUrl": "https://www.metacritic.com/game/ryse-son-of-rome/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=302510&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/302510/",
+    "storeLabel": "Steam",
+    "cover": "/games/302510.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/302510/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox One",
+        "score": 60,
+        "url": "https://www.metacritic.com/game/ryse-son-of-rome/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 61,
+        "url": "https://www.metacritic.com/game/ryse-son-of-rome/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Ryse: Son of Rome",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/ryse-son-of-rome/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-24",
+    "shelf": "backlog",
+    "title": "Control Ultimate Edition",
+    "steamId": 870780,
+    "year": 2022,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "CONTROL Ultimate Edition",
+    "genre": "Action / Adventure",
+    "metascore": 85,
+    "metacriticUrl": "https://www.metacritic.com/game/control/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=870780&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/870780/",
+    "storeLabel": "Steam",
+    "cover": "/games/870780.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/870780/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/control/?platform=playstation-4"
+      },
+      {
+        "platform": "PC",
+        "score": 85,
+        "url": "https://www.metacritic.com/game/control/?platform=pc"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 84,
+        "url": "https://www.metacritic.com/game/control/?platform=xbox-one"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Control",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/control/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-25",
+    "shelf": "backlog",
+    "title": "Alan Wake 2",
+    "steamId": null,
+    "year": 2023,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "storeUrl": "https://store.epicgames.com/en-US/p/alan-wake-2",
+    "storeLabel": "Epic Games",
+    "metascore": 90,
+    "metacriticUrl": "https://www.metacritic.com/game/alan-wake-ii/?platform=xbox-series-x",
+    "scoreSource": "https://www.metacritic.com/game/alan-wake-ii/?platform=xbox-series-x",
+    "verifiedMetacriticTitle": "Alan Wake II",
+    "scoreStatus": "verified",
+    "genre": "Survival",
+    "cover": "/games/backlog-25.jpg",
+    "coverSource": "https://upload.wikimedia.org/wikipedia/en/e/ed/Alan_Wake_2_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "platformScores": [
+      {
+        "platform": "PlayStation 5",
+        "score": 89,
+        "url": "https://www.metacritic.com/game/alan-wake-ii/?platform=playstation-5"
+      },
+      {
+        "platform": "PC",
+        "score": 89,
+        "url": "https://www.metacritic.com/game/alan-wake-ii/?platform=pc"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 90,
+        "url": "https://www.metacritic.com/game/alan-wake-ii/?platform=xbox-series-x"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox Series X"
+  },
+  {
+    "id": "backlog-26",
+    "shelf": "backlog",
+    "title": "Sifu",
+    "steamId": 2138710,
+    "year": 2021,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Sifu",
+    "genre": "Action / Indie",
+    "metascore": 86,
+    "metacriticUrl": "https://www.metacritic.com/game/sifu/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2138710&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2138710/",
+    "storeLabel": "Steam",
+    "cover": "/games/2138710.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2138710/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 5",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/sifu/?platform=playstation-5"
+      },
+      {
+        "platform": "PlayStation 4",
+        "score": 71,
+        "url": "https://www.metacritic.com/game/sifu/?platform=playstation-4"
+      },
+      {
+        "platform": "PC",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/sifu/?platform=pc"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/sifu/?platform=nintendo-switch"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/sifu/?platform=xbox-series-x"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "SIFU",
+    "scorePlatform": "Xbox Series X",
+    "scoreSource": "https://www.metacritic.com/game/sifu/?platform=xbox-series-x",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-27",
+    "shelf": "backlog",
+    "title": "Vampyr",
+    "steamId": 427290,
+    "year": 2018,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Vampyr",
+    "genre": "Action / RPG",
+    "metascore": 72,
+    "metacriticUrl": "https://www.metacritic.com/game/vampyr/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=427290&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/427290/",
+    "storeLabel": "Steam",
+    "cover": "/games/427290.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/427290/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 70,
+        "url": "https://www.metacritic.com/game/vampyr/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 70,
+        "url": "https://www.metacritic.com/game/vampyr/?platform=xbox-one"
+      },
+      {
+        "platform": "PC",
+        "score": 72,
+        "url": "https://www.metacritic.com/game/vampyr/?platform=pc"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "score": 69,
+        "url": "https://www.metacritic.com/game/vampyr/?platform=nintendo-switch"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Vampyr",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/vampyr/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-28",
+    "shelf": "backlog",
+    "title": "Crysis Remastered",
+    "steamId": 1715130,
+    "year": 2021,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Crysis Remastered",
+    "genre": "FPS",
+    "metascore": 69,
+    "metacriticUrl": "https://www.metacritic.com/game/crysis-remastered/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1715130&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1715130/",
+    "storeLabel": "Steam",
+    "cover": "/games/1715130.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1715130/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/crysis-remastered/?platform=pc",
+    "verifiedMetacriticTitle": "Crysis Remastered",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "Nintendo Switch",
+        "score": 66,
+        "url": "https://www.metacritic.com/game/crysis-remastered/?platform=nintendo-switch"
+      },
+      {
+        "platform": "PC",
+        "score": 69,
+        "url": "https://www.metacritic.com/game/crysis-remastered/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 4",
+        "score": 59,
+        "url": "https://www.metacritic.com/game/crysis-remastered/?platform=playstation-4"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 59,
+        "url": "https://www.metacritic.com/game/crysis-remastered/?platform=xbox-one"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PC"
+  },
+  {
+    "id": "backlog-29",
+    "shelf": "backlog",
+    "title": "Crysis 2 Remastered",
+    "steamId": 2096600,
+    "year": 2021,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Crysis 2 Remastered",
+    "genre": "FPS",
+    "metascore": null,
+    "metacriticUrl": "https://www.metacritic.com/game/crysis-2-remastered/",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2096600&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2096600/",
+    "storeLabel": "Steam",
+    "cover": "/games/2096600.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2096600/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/crysis-2-remastered/",
+    "verifiedMetacriticTitle": "Crysis 2 Remastered",
+    "scoreStatus": "unscored",
+    "platformScores": [],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": null
+  },
+  {
+    "id": "backlog-30",
+    "shelf": "backlog",
+    "title": "Crysis 3 Remastered",
+    "steamId": 2096610,
+    "year": 2021,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Crysis 3 Remastered",
+    "genre": "FPS",
+    "metascore": null,
+    "metacriticUrl": "https://www.metacritic.com/game/crysis-3-remastered/",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2096610&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2096610/",
+    "storeLabel": "Steam",
+    "cover": "/games/2096610.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2096610/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/crysis-3-remastered/",
+    "verifiedMetacriticTitle": "Crysis 3 Remastered",
+    "scoreStatus": "unscored",
+    "platformScores": [],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": null
+  },
+  {
+    "id": "backlog-31",
+    "shelf": "backlog",
+    "title": "DEATH STRANDING",
+    "steamId": 1190460,
+    "year": 2019,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "DEATH STRANDING",
+    "genre": "Action / Adventure",
+    "metascore": 86,
+    "metacriticUrl": "https://www.metacritic.com/game/death-stranding/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=1190460&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/1190460/",
+    "storeLabel": "Steam",
+    "cover": "/games/1190460.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/1190460/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 82,
+        "url": "https://www.metacritic.com/game/death-stranding/?platform=playstation-4"
+      },
+      {
+        "platform": "PC",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/death-stranding/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Death Stranding",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/death-stranding/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-32",
+    "shelf": "backlog",
+    "title": "Far Cry 6",
+    "steamId": 2369390,
+    "year": 2021,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Far Cry® 6",
+    "genre": "FPS",
+    "metascore": 79,
+    "metacriticUrl": "https://www.metacritic.com/game/far-cry-6/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2369390&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2369390/",
+    "storeLabel": "Steam",
+    "cover": "/games/2369390.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2369390/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/far-cry-6/?platform=xbox-series-x",
+    "verifiedMetacriticTitle": "Far Cry 6",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 74,
+        "url": "https://www.metacritic.com/game/far-cry-6/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 73,
+        "url": "https://www.metacritic.com/game/far-cry-6/?platform=playstation-5"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 79,
+        "url": "https://www.metacritic.com/game/far-cry-6/?platform=xbox-series-x"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox Series X"
+  },
+  {
+    "id": "backlog-33",
+    "shelf": "backlog",
+    "title": "Far Cry 3",
+    "steamId": 220240,
+    "year": 2012,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Far Cry 3",
+    "genre": "Action / Adventure",
+    "metascore": 91,
+    "metacriticUrl": "https://www.metacritic.com/game/far-cry-3/?platform=xbox-360",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=220240&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/220240/",
+    "storeLabel": "Steam",
+    "cover": "/games/220240.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/220240/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 3",
+        "score": 90,
+        "url": "https://www.metacritic.com/game/far-cry-3/?platform=playstation-3"
+      },
+      {
+        "platform": "PC",
+        "score": 88,
+        "url": "https://www.metacritic.com/game/far-cry-3/?platform=pc"
+      },
+      {
+        "platform": "Xbox 360",
+        "score": 91,
+        "url": "https://www.metacritic.com/game/far-cry-3/?platform=xbox-360"
+      },
+      {
+        "platform": "PlayStation 4",
+        "score": 70,
+        "url": "https://www.metacritic.com/game/far-cry-3/?platform=playstation-4"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Far Cry 3",
+    "scorePlatform": "Xbox 360",
+    "scoreSource": "https://www.metacritic.com/game/far-cry-3/?platform=xbox-360",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-34",
+    "shelf": "backlog",
+    "title": "Alan Wake",
+    "steamId": 108710,
+    "year": 2012,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Alan Wake",
+    "genre": "Action / Adventure",
+    "metascore": 83,
+    "metacriticUrl": "https://www.metacritic.com/game/alan-wake/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=108710&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/108710/",
+    "storeLabel": "Steam",
+    "cover": "/games/108710.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/108710/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 83,
+        "url": "https://www.metacritic.com/game/alan-wake/?platform=pc"
+      },
+      {
+        "platform": "Xbox 360",
+        "score": 83,
+        "url": "https://www.metacritic.com/game/alan-wake/?platform=xbox-360"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Alan Wake",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/alan-wake/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-35",
+    "shelf": "backlog",
+    "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+    "steamId": 20920,
+    "year": 2011,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "The Witcher 2: Assassins of Kings Enhanced Edition",
+    "genre": "RPG",
+    "metascore": 88,
+    "metacriticUrl": "https://www.metacritic.com/game/the-witcher-2-assassins-of-kings/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=20920&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/20920/",
+    "storeLabel": "Steam",
+    "cover": "/games/20920.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/20920/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 88,
+        "url": "https://www.metacritic.com/game/the-witcher-2-assassins-of-kings/?platform=pc"
+      },
+      {
+        "platform": "Xbox 360",
+        "score": 88,
+        "url": "https://www.metacritic.com/game/the-witcher-2-assassins-of-kings/?platform=xbox-360"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "The Witcher 2: Assassins of Kings",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/the-witcher-2-assassins-of-kings/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-36",
+    "shelf": "backlog",
+    "title": "Hellblade: Senua's Sacrifice",
+    "steamId": 414340,
+    "year": 2017,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Hellblade: Senua's Sacrifice",
+    "genre": "Action / Adventure",
+    "metascore": 88,
+    "metacriticUrl": "https://www.metacritic.com/game/hellblade-senuas-sacrifice/?platform=xbox-one",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=414340&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/414340/",
+    "storeLabel": "Steam",
+    "cover": "/games/414340.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/414340/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 4",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/hellblade-senuas-sacrifice/?platform=playstation-4"
+      },
+      {
+        "platform": "PC",
+        "score": 83,
+        "url": "https://www.metacritic.com/game/hellblade-senuas-sacrifice/?platform=pc"
+      },
+      {
+        "platform": "Xbox One",
+        "score": 88,
+        "url": "https://www.metacritic.com/game/hellblade-senuas-sacrifice/?platform=xbox-one"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "score": 80,
+        "url": "https://www.metacritic.com/game/hellblade-senuas-sacrifice/?platform=nintendo-switch"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Hellblade: Senua's Sacrifice",
+    "scorePlatform": "Xbox One",
+    "scoreSource": "https://www.metacritic.com/game/hellblade-senuas-sacrifice/?platform=xbox-one",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-37",
+    "shelf": "backlog",
+    "title": "Call of Juarez: Gunslinger",
+    "steamId": 204450,
+    "year": 2013,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Call of Juarez: Gunslinger",
+    "genre": "Action",
+    "metascore": 79,
+    "metacriticUrl": "https://www.metacritic.com/game/call-of-juarez-gunslinger/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=204450&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/204450/",
+    "storeLabel": "Steam",
+    "cover": "/games/204450.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/204450/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 3",
+        "score": 75,
+        "url": "https://www.metacritic.com/game/call-of-juarez-gunslinger/?platform=playstation-3"
+      },
+      {
+        "platform": "PC",
+        "score": 79,
+        "url": "https://www.metacritic.com/game/call-of-juarez-gunslinger/?platform=pc"
+      },
+      {
+        "platform": "Xbox 360",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/call-of-juarez-gunslinger/?platform=xbox-360"
+      },
+      {
+        "platform": "Nintendo Switch",
+        "score": 72,
+        "url": "https://www.metacritic.com/game/call-of-juarez-gunslinger/?platform=nintendo-switch"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Call of Juarez: Gunslinger",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/call-of-juarez-gunslinger/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "backlog-38",
+    "shelf": "backlog",
+    "title": "Saints Row",
+    "steamId": 742420,
+    "year": 2022,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Saints Row",
+    "genre": "Open-World Action",
+    "metascore": 65,
+    "metacriticUrl": "https://www.metacritic.com/game/saints-row/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=742420&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/742420/",
+    "storeLabel": "Steam",
+    "cover": "/games/742420.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/742420/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/saints-row/?platform=xbox-series-x",
+    "verifiedMetacriticTitle": "Saints Row",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 63,
+        "url": "https://www.metacritic.com/game/saints-row/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 61,
+        "url": "https://www.metacritic.com/game/saints-row/?platform=playstation-5"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 65,
+        "url": "https://www.metacritic.com/game/saints-row/?platform=xbox-series-x"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox Series X"
+  },
+  {
+    "id": "backlog-39",
+    "shelf": "backlog",
+    "title": "Saints Row IV: Re-Elected",
+    "steamId": 206420,
+    "year": 2013,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Saints Row IV: Re-Elected",
+    "genre": "Action / Adventure",
+    "metascore": 86,
+    "metacriticUrl": "https://www.metacritic.com/game/saints-row-iv/?platform=pc",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=206420&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/206420/",
+    "storeLabel": "Steam",
+    "cover": "/games/206420.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/206420/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "Xbox 360",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/saints-row-iv/?platform=xbox-360"
+      },
+      {
+        "platform": "PC",
+        "score": 86,
+        "url": "https://www.metacritic.com/game/saints-row-iv/?platform=pc"
+      },
+      {
+        "platform": "PlayStation 3",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/saints-row-iv/?platform=playstation-3"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "Saints Row IV",
+    "scorePlatform": "PC",
+    "scoreSource": "https://www.metacritic.com/game/saints-row-iv/?platform=pc",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "wishlist-1",
+    "shelf": "wishlist",
+    "title": "Grand Theft Auto VI",
+    "steamId": null,
+    "year": 2026,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "storeUrl": "https://www.rockstargames.com/VI",
+    "storeLabel": "Rockstar Games",
+    "metascore": null,
+    "metacriticUrl": "https://www.metacritic.com/game/grand-theft-auto-vi/",
+    "scoreSource": "https://www.metacritic.com/game/grand-theft-auto-vi/",
+    "verifiedMetacriticTitle": "Grand Theft Auto VI",
+    "scoreStatus": "unscored",
+    "genre": "Open-World Action",
+    "cover": "/games/wishlist-1.png",
+    "coverSource": "https://upload.wikimedia.org/wikipedia/en/4/46/Grand_Theft_Auto_VI.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "platformScores": [],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": null
+  },
+  {
+    "id": "wishlist-2",
+    "shelf": "wishlist",
+    "title": "Marvel's Spider-Man 2",
+    "steamId": 2651280,
+    "year": 2025,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Marvel's Spider-Man 2",
+    "genre": "Open-World Action",
+    "metascore": 90,
+    "metacriticUrl": "https://www.metacritic.com/game/marvels-spider-man-2/?platform=playstation-5",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2651280&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2651280/",
+    "storeLabel": "Steam",
+    "cover": "/games/2651280.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2651280/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/marvels-spider-man-2/?platform=playstation-5",
+    "verifiedMetacriticTitle": "Marvel's Spider-Man 2",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PlayStation 5",
+        "score": 90,
+        "url": "https://www.metacritic.com/game/marvels-spider-man-2/?platform=playstation-5"
+      },
+      {
+        "platform": "PC",
+        "score": 76,
+        "url": "https://www.metacritic.com/game/marvels-spider-man-2/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "PlayStation 5"
+  },
+  {
+    "id": "wishlist-3",
+    "shelf": "wishlist",
+    "title": "Assassin's Creed Shadows",
+    "steamId": 3159330,
+    "year": 2025,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Assassin’s Creed Shadows",
+    "genre": "Open-World Action",
+    "metascore": 85,
+    "metacriticUrl": "https://www.metacritic.com/game/assassins-creed-shadows/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=3159330&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/3159330/",
+    "storeLabel": "Steam",
+    "cover": "/games/3159330.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/3159330/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/assassins-creed-shadows/?platform=xbox-series-x",
+    "verifiedMetacriticTitle": "Assassin's Creed Shadows",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "PC",
+        "score": 79,
+        "url": "https://www.metacritic.com/game/assassins-creed-shadows/?platform=pc"
+      },
+      {
+        "platform": "Xbox Series X",
+        "score": 85,
+        "url": "https://www.metacritic.com/game/assassins-creed-shadows/?platform=xbox-series-x"
+      },
+      {
+        "platform": "PlayStation 5",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/assassins-creed-shadows/?platform=playstation-5"
+      },
+      {
+        "platform": "Nintendo Switch 2",
+        "score": 80,
+        "url": "https://www.metacritic.com/game/assassins-creed-shadows/?platform=nintendo-switch-2"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox Series X"
+  },
+  {
+    "id": "wishlist-4",
+    "shelf": "wishlist",
+    "title": "God of War Ragnarök",
+    "steamId": 2322010,
+    "year": 2024,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "God of War Ragnarök",
+    "genre": "Action / Adventure",
+    "metascore": 94,
+    "metacriticUrl": "https://www.metacritic.com/game/god-of-war-ragnarok/?platform=playstation-5",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2322010&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2322010/",
+    "storeLabel": "Steam",
+    "cover": "/games/2322010.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2322010/library_600x900_2x.jpg",
+    "platformScores": [
+      {
+        "platform": "PlayStation 5",
+        "score": 94,
+        "url": "https://www.metacritic.com/game/god-of-war-ragnarok/?platform=playstation-5"
+      },
+      {
+        "platform": "PC",
+        "score": 90,
+        "url": "https://www.metacritic.com/game/god-of-war-ragnarok/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "verifiedMetacriticTitle": "God of War: Ragnarok",
+    "scorePlatform": "PlayStation 5",
+    "scoreSource": "https://www.metacritic.com/game/god-of-war-ragnarok/?platform=playstation-5",
+    "scoreStatus": "verified"
+  },
+  {
+    "id": "wishlist-5",
+    "shelf": "wishlist",
+    "title": "Senua's Saga: Hellblade II",
+    "steamId": 2461850,
+    "year": 2024,
+    "hours": null,
+    "replays": null,
+    "note": null,
+    "verifiedSteamTitle": "Hellblade II: Senua’s Saga",
+    "genre": "Action Adventure",
+    "metascore": 81,
+    "metacriticUrl": "https://www.metacritic.com/game/senuas-saga-hellblade-ii/?platform=xbox-series-x",
+    "metadataSource": "https://store.steampowered.com/api/appdetails?appids=2461850&l=english&cc=us",
+    "storeUrl": "https://store.steampowered.com/app/2461850/",
+    "storeLabel": "Steam",
+    "cover": "/games/2461850.jpg",
+    "coverSource": "https://cdn.akamai.steamstatic.com/steam/apps/2461850/library_600x900_2x.jpg",
+    "scoreSource": "https://www.metacritic.com/game/senuas-saga-hellblade-ii/?platform=xbox-series-x",
+    "verifiedMetacriticTitle": "Senua's Saga: Hellblade II",
+    "scoreStatus": "verified",
+    "platformScores": [
+      {
+        "platform": "Xbox Series X",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/senuas-saga-hellblade-ii/?platform=xbox-series-x"
+      },
+      {
+        "platform": "PC",
+        "score": 81,
+        "url": "https://www.metacritic.com/game/senuas-saga-hellblade-ii/?platform=pc"
+      }
+    ],
+    "scorePolicy": "highest-platform-same-edition",
+    "scoreCheckedAt": "2026-11-09",
+    "scorePlatform": "Xbox Series X"
+  }
+]

@@ -368,6 +368,7 @@ function App() {
           <a href="#about">ABOUT</a>
           <a href="#projects">PROJECTS</a>
           <a href="#contact">CONTACT</a>
+          <a href="/comfort-zone">COMFORT ZONE</a>
         </nav>
         <a className="contact-link" href="mailto:ghiath@luminisst.com">LET'S TALK ↗</a>
       </header>
